@@ -1,0 +1,135 @@
+.u-section-1 {
+  background-image: none;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 1121px;
+}
+
+.u-section-1 .u-shape-1 {
+  width: 3764px;
+  height: 41px;
+  margin: -20px auto 0 -1221px;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 12.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 40px rgba(32,146,97,0.6);
+  animation-duration: 1000ms;
+  width: 575px;
+  margin: 147px auto 0;
+}
+
+.u-section-1 .u-text-2 {
+  animation-duration: 1000ms;
+  width: 198px;
+  margin: -33px auto 60px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1207px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    width: 940px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: auto;
+    margin-top: 0;
+    margin-right: 234px;
+    margin-left: 132px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-shape-1 {
+    width: 720px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 124px;
+    margin-left: 22px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-shape-1 {
+    width: 540px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 10145px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 10.3125rem;
+    margin-left: -50px;
+    margin-right: -50px;
+  }
+}.u-section-2 .u-sheet-1 {
+  min-height: 500px;
+}
+
+.u-section-2 .u-text-1 {
+  margin-bottom: 0;
+  text-transform: none;
+  font-weight: normal;
+  font-size: 3rem;
+  text-shadow: 2px 2px 8px rgba(32,146,97,0.4);
+}
+
+.u-section-2 .u-text-2 {
+  margin-bottom: 60px;
+  margin-top: 20px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-text-2 {
+    font-weight: normal;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 685px;
+  }
+
+  .u-section-2 .u-text-1 {
+    width: auto;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 6rem;
+    margin-top: 175px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .u-section-2 .u-text-2 {
+    width: auto;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

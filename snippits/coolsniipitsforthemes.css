@@ -1,0 +1,235 @@
+@import url(https://leeprky.github.io/snippits/discoloured.css);
+@import "https://leeprky.github.io/snippits/cpp.css";
+@import "https://leeprky.github.io/themes/BaseStuff/DiscordFont.css";
+
+/* Shrink header when scrolling down in roles menu */
+.header-JUTO-g.stickyHeader-1Sunlx {
+    display: contents;
+}
+.header-JUTO-g.stickyHeader-1Sunlx > div:first-child {
+    margin-top: 60px !important;
+}
+.tabBar-3DfKkN.top-K_jibn {
+    position: sticky;
+    top: 0;
+    padding-top: 15px;
+    background-color: var(--background-primary);
+    z-index: 20;
+}
+.header-JUTO-g.stickyHeader-1Sunlx > div:last-child {
+    margin-bottom: 20px;
+}
+
+.voiceUser-3nRK-K>.content-1Tgc42>.icons-2mwuFp svg>path:last-child{
+  fill: var(--alt-color2);
+}
+
+/* Popup Thing :p */
+:root {
+    --popup-color: var(--alt-color2);
+}
+.tooltipPrimary-3qLMbS {
+    background: var(--popup-color) !important;
+}
+.tooltipPointer-3L49xb {
+    border-top-color: var(--popup-color) !important;
+}
+
+.noUserDrag-2HbVzE {
+    -webkit-user-drag: inherit;
+}
+
+.isUnread-3Lojb- {border-color:transparent !important;} 
+.app-focused .isUnread-3Lojb- {border-color: #f04747 !important;}
+
+ul.tree-3agP2X:focus {
+    outline-color: transparent;
+}
+
+
+.maximized .titleBar-1it3bQ {
+  margin-top: 0;
+  height: 22px;
+}
+.maximized .titleBar-1it3bQ .winButton-3UMjdg {
+  padding-top: 4px;
+}
+
+.side-2ur1Qk > div {
+    order: -1;
+}
+.side-2ur1Qk > div[data-item-id="pc-general"],
+.side-2ur1Qk > div[data-item-id="pc-general"] ~ div {
+    order: 2;
+}
+.side-2ur1Qk > div[data-item-id="theme-toggler"] {
+    order: 1 !important;
+}
+
+  .tip-1AwED_, .tipTitle-3FYEQp {
+    font-size: 0px!important;
+  }
+  .tip-1AwED_ .keybind-2rkdVo {
+    display:none;
+  }
+  .tipTitle-3FYEQp::after {
+    font-size: 16px;
+    content: "Discord Loading..."
+  }
+  .tip-1AwED_::after {
+    font-size: 16px;
+    content: 'leeprky#2063';
+  }
+
+
+/* Shrink server banners to header instead of disappearing. */
+[class*="animatedContainer-"] {
+  opacity: 1 !important;
+  transition: opacity .25s;
+}
+[class*="animatedContainer-"] > [class*="bannerImage-"] {
+  transition: margin .25s;
+}
+:not([class*="bannerVisible-"]) > [class*="animatedContainer-"] {
+  opacity: .35 !important;
+  height: 138px;
+}
+:not([class*="bannerVisible-"]) > [class*="animatedContainer-"] > [class*="bannerImage-"] {
+  margin-top: -12px;
+}
+
+/* Rename Settings page v2.1 */
+.item-3XjbnG[data-item-id="theme-toggler"] {
+  font-size: 0px;
+    visibility: none !important;
+    padding-top: 6px;
+  padding-bottom: 1px;
+  margin-bottom: 2px;
+}
+.item-3XjbnG[data-item-id="theme-toggler"]:after {
+  font-size: 16px;
+    visibility: visible !important;
+  content: "Themes";
+}
+.item-3XjbnG[data-item-id="theme-toggler"]:not(:selected):hover:after {
+  color: var(--interactive-hover) !important;
+}
+.item-3XjbnG[data-item-id="theme-toggler"]:active:after {
+  color: var(--interactive-active) !important;
+}
+.item-3XjbnG[data-item-id="theme-toggler"]:selected:after {
+  color: var(--interactive-active) !important;
+}
+/* Rename Settings page v2.1 */
+.item-3XjbnG[data-item-id="pc-moduleManager-themes"] {
+  font-size: 0px;
+    visibility: none !important;
+    padding-top: 6px;
+  padding-bottom: 1px;
+  margin-bottom: 2px;
+}
+.item-3XjbnG[data-item-id="pc-moduleManager-themes"]:after {
+  font-size: 16px;
+    visibility: visible !important;
+  content: "Quick CSS";
+}
+.item-3XjbnG[data-item-id="pc-moduleManager-themes"]:not(:selected):hover:after {
+  color: var(--interactive-hover) !important;
+}
+.item-3XjbnG[data-item-id="pc-moduleManager-themes"]:active:after {
+  color: var(--interactive-active) !important;
+}
+.item-3XjbnG[data-item-id="pc-moduleManager-themes"]:selected:after {
+  color: var(--interactive-active) !important;
+}
+.item-3XjbnG[data-item-id="pc-moduleManager-themes"], .item-3XjbnG[data-item-id="theme-toggler"] {
+   padding-bottom: 6px;
+}
+
+/*fix emoji suggestions not being scrollable*/
+.autocompleteInner-y1mjDl {
+    overflow-y: auto;
+    max-height: 75vh;
+}
+
+:root .bf-badge{
+    background: transparent !important;
+}
+
+.spoilerText-27bIiA.hidden-3B-Rum:hover .inlineContent-2YnoDy {
+        opacity: 1;
+        border-radius: 3px;
+        background-color: #4a4d53;
+}
+
+/* Plugins */
+.connection-3k9QeF {
+  padding-bottom: 0;
+}
+
+.updateIconForeground-2V_zo4 {
+  fill: var(--alt-color2) !important;
+}
+
+/* Offline */
+.container-2RRFHK {background: transparent; pointer-events: none}
+.container-2RRFHK>div {display: none}
+.container-2RRFHK::before {
+    content: "You've gone offline";
+    display: block;
+    bottom: 24px; right: 24px;
+    position: absolute;
+    padding: 8px 16px;
+    background-color: #f04747;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 500
+}
+
+   .voiceUsers-25eR9q {
+    width: 30%;
+    align-content: center;
+    margin-left: 32%;
+    display: flex;
+    justify-content: space-evenly;
+    grid-template-columns: none;
+}
+
+            .iconWrapper-2awDjA[aria-label="Help"] {
+               display: none;
+            }
+            [class="ring-370dIp"] {
+               display: none !important;
+            }
+/* PowercordToasts */
+
+.powercord-toast {
+   border-radius: 18px;
+   background-color: var(--background-floating);
+}
+.powercord-toast .header { background-color: var(--toast-header); border-radius: 12px 12px 0px 0px;}
+.powercord-toast .buttons { background-color: var(--background-secondary); border-radius: 0px 0px 10px 10px;}
+.lookGhost-2Fn_0-.colorBrand-I6CyqQ { color: #F4F7F5; background-color: var(--background-help-info)}
+.lookGhost-2Fn_0-.colorBrand-I6CyqQ:hover { color: #F4F7F5; background-color: var(--background-modifier-hover)}
+.lookOutlined-3yKVGo.colorRed-rQXKgM {color: #F4F7F5; border-color: #f04747d0; background-color: #f0474738; }
+.lookOutlined-3yKVGo.colorRed-rQXKgM:hover {color: #F4F7F5; border-color: #eb2e2ed0; background-color: #e93636a8; }
+.lookOutlined-3yKVGo.colorGrey-2iAG-B {color: #F4F7F5; border-color: #b6bec9; background-color: #747f8d93; }
+.lookOutlined-3yKVGo.colorGrey-2iAG-B:hover {color: #F4F7F5; border-color: #cbd3df; background-color: #99a6b893; }
+.powercord-toast .header { font-size: 15px; }
+.powercord-toast .contents .inner {background-color: transparent;border: none;}
+
+
+
+        [aria-label*="download"] .icon-2W8DHg {
+          color: transparent !important;
+      }
+      [aria-label*="download"] .iconContainer-21RCa3:before {
+          content: " ";
+          -webkit-mask: url("data:image/svg+xml,%3Csvg baseProfile='tiny-ps' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24'%3E%3Cstyle%3Etspan %7B white-space:pre %7D.shp0 %7B fill: %23191919 %7D %3C/style%3E%3Cpath id='Icon' class='shp0' d='M9.18 2.07C9.09 2.14 9.04 4.05 9.05 6.33L9.08 10.46L5.63 10.46L10.5 15.33L15.37 10.46L11.92 10.46L11.83 2.05C9.89 1.97 9.26 2 9.18 2.07ZM2 17.81L2 18.96L19 18.96L19 16.66L2 16.66L2 17.81Z' /%3E%3C/svg%3E");
+          background-repeat: no-repeat;
+          position: absolute;
+          color: var(--text-muted);
+          background-color: currentColor;
+          height: 24px;
+          width: 24px;
+      }

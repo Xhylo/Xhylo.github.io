@@ -1,0 +1,21 @@
+:root {
+   --chatbox-colour: var(--glasscord-chatbox-colour) !important; 
+   --background-primary: transparent !important; 
+   --background-secondary: transparent !important; 
+   --background-secondary-alt: var(--glasscord-secondary-alt) !important; 
+   --background-tertiary: transparent !important; 
+   --background-floating: var(--glasscord-floating) !important; 
+ }
+
+ #app-mount {border-radius: var(--app-rounding);}
+
+ .powercord-spotify, .powercord-spotify.hover {
+    background-color: var(--glasscord-floating);
+ }
+.container-1eFtFS {
+   background-color: var(--glasscord-background);
+}
+.layers-OrUESM>.layer-86YKbF:nth-child(2), .perksModal-fSYqOq {
+   background-color: rgba(14, 14, 34, 0.849)!important;
+   backdrop-filter: blur(22px);
+}

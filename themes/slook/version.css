@@ -1,0 +1,58 @@
+@import "https://leeprky.github.io/themes/Ovel/imports/07-extra/version.css";
+
+/* Outdated Version Code*/
+:root {
+   --theme: "SlookRemastered";
+   --build-latest: "400";
+   --version-latest: "v3.0.1";
+   --version-latest-long: "Version: " var(--version-latest) "";
+   --version-long: "Version: " var(--version) " (Current) ";
+   --theme-dl: "https://github.com/leeprky/Slook-Remastered";
+      
+   --version: "UNKNOWN"; 
+   --build: "UNKNOWN";
+}
+
+#app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div.base-2jDfDU:before{display:var(--outdated_slook-400,block)!important;position:absolute;left:32%!important;width:fit-content;border-radius:0 0 12px 12px!important;top:48px!important}
+#app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div.base-2jDfDU:before{content:var(--theme)" Is outdated Or Broken.. Current: ("var(--version)" Build "var(--build)") | Latest: (" var(--version-latest)" Build: "var(--build-latest) ") // Redownload the theme From \""var(--theme-dl)"\"" !important;display:block;background-color:var(--alt-color2);color:#fff;flex-grow:0;flex-shrink:0;font-size:16px;font-weight:500;height:auto;line-height:16px;opacity:1;padding:10px;padding-left:20px;padding-right:20px;position:relative;text-align:center;visibility:unset;white-space:pre-wrap;top:0;left:0;bottom:unset;right:unset;max-width:2000px;min-width:unset;max-height:unset;min-height:unset;transform:unset;animation:unset;z-index:999999;pointer-events:none}
+  
+  .info-1sUqUG::after {
+    content: var(--version-latest-long) !important;
+    color: var(--alt-color2);
+    opacity: 0.4;
+    filter: brightness(160%);
+    display: block;
+    font-size: 12px;
+    font-family: var(--font-primary);
+    font-weight: 600;
+  }
+                .info-1sUqUG::before {
+                 content: var(--version-long) !important;
+                 color: var(--alt-color2);
+                 opacity: 1;
+                 filter: brightness(180%);
+                 display: block;
+                 font-size: 12px;
+                 font-family: var(--font-primary);
+                 font-weight: 400;
+                 position: absolute;
+                 margin-top: 67px;
+             }
+  
+       .info-1sUqUG:after {
+        content: var(--version-latest-long) !important;
+        font-size: 12px !important;
+        display: inline !important;
+        opacity: 1 !important;
+        padding: 0 !important;
+        cursor: text !important;
+        visibility: visible !important;
+        position: relative !important;
+        top: unset !important;
+        left: unset !important;
+        bottom: 1px !important;
+        right: unset !important;
+        transform: unset !important;
+        animation: unset !important;
+        text-transform: none !important;
+    }

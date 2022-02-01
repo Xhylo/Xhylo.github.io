@@ -1,0 +1,30 @@
+#app-mount .titleBar-1it3bQ .winButton-3UMjdg {
+  background: var(--icon) 8px 0/15px 15px no-repeat;
+  opacity: 0.75;
+  margin-top: 5px;
+  left: -9px;
+  margin-left: 5px;
+  transition: all 0.2s ease;
+}
+
+
+.typeWindows-2-g3UY > .wordmark-2u86JB:before {
+  content: var(--watermark-version);
+  color: #fff;
+  font-family: Discord;
+  font-size: 12px;
+  width: 10px;
+  height: 10px;
+}
+#app-mount .titleBar-1it3bQ .wordmark-2u86JB svg {
+  margin-bottom: 11px;
+  margin-left: 4px;
+}
+.layers-OrUESM,
+.platform-win .standardSidebarView-E9Pc3j {
+  border-color: transparent;
+  background-color: var(--background-tertiary);
+}
+.platform-win .layer-86YKbF {
+  background-color: transparent;
+}

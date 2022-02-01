@@ -1,0 +1,90 @@
+/* ROUNDY THINGS ALL */
+
+.theme-dark{
+  --modal-border-radius: 15px 15px 15px 15px;
+  --floating-border-radius: 15px 15px 15px 15px;
+  --expanded-border-radius: 15px 15px 15px 15px;
+  --border-radius: 10px 10px 10px 10px;
+}
+
+.userPopout-3XzG_A, .lookInverted-2mDUMi.colorBrand-I6CyqQ,.cardWrapper-CyvwQv, .theme-dark .card-o7rAq-, .theme-dark .card-3IImnr, .inputDefault-3FGxgL, .inputMaxLength-3n06SD, button[class*=lookOutlined].colorBrand-I6CyqQ{border-radius:var(--modal-border-radius)}
+.menu-1QACrS{border-radius:var(--expanded-border-radius);}
+.elevationBorderHigh-3drnJX,.theme-dark .container-2McqkF{border-radius:var(--floating-border-radius)}
+.contentWrapper-3vHNP2{border-radius:var(--floating-border-radius)}
+.messagesPopoutWrap-3zryHW{border-radius:var(--floating-border-radius)}
+.container-2ebMPP{border-radius:var(--expanded-border-radius)}
+.root-SR8cQa{border-radius:var(--expanded-border-radius)}
+.footer-31IekZ,.root-g14mjS{border-radius:var(--expanded-border-radius)}
+.input-2z42oC{border-radius:var(--modal-border-radius)}
+.colorDefault-CDqZdO.focused-3qFvc8{border-radius:var(--border-radius)}
+.categoryItem-3zFJns.selectedCategoryItem-3X8ujp{border-radius:var(--border-radius)}
+.container-36u7Lw{border-radius:var(--expanded-border-radius)}
+.modeSelected-3DmyhH .content-1gYQeQ,.modeSelected-3DmyhH:hover .content-1gYQeQ{border-radius:var(--border-radius)}
+.clickable-28SzVr .layout-1qmrhw{border-radius:var(--border-radius)}
+.wrapper-NhbLHG .content-1gYQeQ{border-radius:var(--border-radius)}
+.modeSelected-3DmyhH .content-1gYQeQ,.modeSelected-3DmyhH:hover .content-1gYQeQ{border-radius:var(--border-radius)}
+.clickable-28SzVr .layout-1qmrhw{border-radius:var(--border-radius)}
+.colorDefault-CDqZdO.focused-3qFvc8{border-radius:var(--border-radius)}
+.theme-dark .option-2KkUJO.selected-rZcOL-{border-radius:var(--border-radius)}
+.colorDefault-CDqZdO.focused-3qFvc8{border-radius:var(--border-radius)}
+.modalContent-3YXA7I{border-radius:12px}
+.theme-dark .footer-31IekZ{border-radius:var(--border-radius);margin-top:5px}
+.lookFilled-yCfaCM.colorBrand-I6CyqQ{border-radius:var(--border-radius)}
+.theme-dark .message-G6O-Wv{border-radius:var(--border-radius)}
+.lookFilled-yCfaCM.colorRed-rQXKgM{border-radius:var(--border-radius)}
+.lookOutlined-3yKVGo.colorRed-rQXKgM{border-radius:var(--border-radius)}
+.userPopout-3XzG_A{border-radius:var(--modal-border-radius)}
+.theme-dark .lookOutlined-3yKVGo.colorGrey-2iAG-B{border-radius:var(--border-radius)}
+.container-2sjPya>*{border-radius:var(--border-radius)}
+.message-372Ods,.messages-23can0{border-radius:var(--border-radius)}
+.container-2O1UgZ{border-radius:var(--border-radius)}
+.inner-2pOSmK{border-radius:var(--border-radius)}
+.theme-dark .elevationHigh-28Pty4{border-radius:var(--border-radius)}
+.lookFilled-yCfaCM.colorGreen-3y-Z79{border-radius:var(--border-radius)}
+.theme-dark .auditLog-3jNbM6{border-radius:var(--border-radius)}
+.searchBar-zdmu7v{border-radius:var(--border-radius)}
+.theme-dark .inset-SbsSFp{border-radius:var(--border-radius)}
+.theme-dark .outer-2JOHae.active-1W_Gl9,.theme-dark .outer-2JOHae.interactive-2zD88a:hover{border-radius:var(--border-radius)}
+.selected-1-Z6gm .layout-1qmrhw{border-radius:var(--border-radius)}
+.scroller-Q9d9Di,.theme-dark  .contentWrapper-3oy4Xo{border-radius:12px 0 0 12px}
+.inviteSplash-2Q0PLE{border-radius:0 12px 12px 0}
+.powercord-toast .buttons button{border-radius:12px}
+.wrapper-1ZcZW-{border-radius:var(--border-radius)}
+.connectedAccount-36nQx7,.listRow-hutiT_:hover,.messageGroupWrapper-1jf_7C,.note-QfFU8y textarea,.peopleListItem-u6dGxF.active-2UF8Zh,.peopleListItem-u6dGxF:hover{border-radius:var(--border-radius)}
+.clickable-vvKY2q .header-3OsQeK:hover,.selected-1GtAC5 .header-3OsQeK{border-radius:var(--border-radius)}
+.item-2idW98{border-radius:var(--border-radius)}
+.side-2ur1Qk .item-3XjbnG{border-radius:var(--border-radius)}
+.formNotice-2nS8ey,.powercord-account,.powercord-product{border-radius:var(--border-radius)}
+.lookFilled-yCfaCM.colorYellow-Pgtmch{border-radius:var(--border-radius)}
+.membershipDialogHouse1-R8jb0l{border-radius:var(--border-radius)}
+.peopleList-2VBrVI.grid .peopleListItem-u6dGxF{border-radius:var(--border-radius)}
+.css-1ye7vu0,.css-3vaxre-menu,.theme-dark .addGamePopout-3yePJc{border-radius:var(--border-radius)}
+.css-1yz4bi9-option{border-radius:var(--border-radius)}
+.css-1ba14n5-option{border-radius:var(--border-radius)}
+.container-3EtAkD{border-radius:var(--border-radius)}
+.roleRow-3LoHQ6:hover:not(.roleRowDisableHover-2TXfy-){border-radius:var(--border-radius)}
+.side-2ur1Qk .themed-2-lozF.item-3XjbnG:hover:not(.disabled-1nofHP),.topPill-3DJJNV .themed-2-lozF.item-3XjbnG:hover:not(.disabled-1nofHP){border-radius:var(--border-radius)}
+.theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B:hover{border-radius:var(--border-radius)}
+.theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B{border-radius:var(--border-radius)}
+.theme-dark.card-o7rAq-{border-radius:var(--border-radius)}
+.side-2ur1Qk .item-3XjbnG{border-radius:var(--border-radius)}
+.theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B{border-radius:var(--border-radius)}
+.draggableWrapper-1qxiU8,.enableContainer-1J91Aq,.settingsFormFieldWrapper-U99c9i,.welcomeChannel-1rFrIO{border-radius:var(--border-radius)}
+.tierHeaderContent-2-YfvN{border-radius:var(--border-radius)}
+.theme-dark.card-2ART2V:before{border-radius:var(--border-radius)}
+.theme-dark .quickSelectPopout-2F0PXw {border-radius: var(--border-radius);}
+.theme-dark .quickSelectPopoutOption-2E2UmS:hover {border-radius: var(--border-radius);}
+.ThemeDownloaderApply:not(.applied) div:hover{border-radius:var(--border-radius)}
+.ThemeDownloaderApply:not(.applied) div{border-radius:var(--border-radius)}
+.side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG, .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG {
+border-radius: var(--border-radius);
+}
+  .wrapper-2RrXDg {
+    border-radius: var(--border-radius);
+  }
+.noiseCancellationPopout-2-e5Xz {
+  border-radius: var(--border-radius);
+}
+  .wrapper-2SplAX, .lookOutlined-3yKVGo.colorWhite-1H92hK, .tabBar-ra-EuL .item-3mHhwr, .lookFilled-yCfaCM  {
+    border-radius: var(--border-radius);
+  }

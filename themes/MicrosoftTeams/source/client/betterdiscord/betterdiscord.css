@@ -1,0 +1,14 @@
+@import "https://raw.githack.com/mr-miner1/Better-Badges/main/theme.css";
+@import "https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css";
+
+.bd-button,.bd-server-tag,.bd-addon-views .bd-view-button.selected{background-color:var(--bd-color)}
+.bd-button:hover{background-color:var(--bd-color-hover)}
+#bd-pub-button:hover{background-color:var(--bd-color-hover)}
+#bd-pub-li{display:var(--public-servers)}
+
+.info-1sUqUG:after {
+  top: 11px !important;
+}
+.contents-2MsGLg>.markup-eYLPri:not(:empty) {
+  background-color: var(--messages-color);
+}

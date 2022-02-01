@@ -1,0 +1,15 @@
+/* Outdated Version Code*/
+:root {
+   --theme: "BetterDefaultDiscord";
+   --build-latest: "46";
+   --version-latest: "v2.1.0";
+   --version-latest-long: "Version: " var(--version-latest) " (Latest) ";
+   --version-long: "Version: " var(--version) " (Current) ";
+   --theme-dl: "https://github.com/leeprky/BetterDefaultDiscord"
+}
+
+[id*="BetterDefaultGlasscord"] .bd-addon-header .bd-meta:before {
+       content:"Build " var(--build) " | ";
+   }
+   
+   #app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div.base-2jDfDU:before{display:var(--outdated_betterdefaultglasscord-046,block)!important;position:absolute;left:32%!important;width:fit-content;border-radius:0 0 12px 12px!important;top:48px!important}

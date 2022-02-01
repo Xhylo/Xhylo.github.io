@@ -1,0 +1,22 @@
+   .theme-dark .wrapper-1prNyd {
+      overflow: hidden;
+      min-height: 100vh;
+      background-size: cover;
+      color: var(--text-normal);
+      background-color: rgb(17, 15, 34);
+      background-position: 30% 85%;
+  }
+  .theme-dark .wrapper-1prNyd {
+   overflow: hidden;
+   min-height: 100vh;
+   background-size: cover;
+   color: var(--text-normal);
+   background-color: rgb(218, 218, 245);
+   background-position: 30% 85%;
+}
+  .theme-dark .image-3zK3Wt, .theme-light .image-3zK3Wt {
+   background-image: url(https://i.imgur.com/jN8vjWG.png);
+   width: 150px;
+   height: 150px;
+   transform: scale(1.2);
+  }

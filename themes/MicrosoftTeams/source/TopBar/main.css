@@ -1,0 +1,13 @@
+.appMount-2yBXZl, body, .bg-1QIAus { 
+  background: linear-gradient(var(--topbar-animation-colour));
+  background-size: 1800% 1800%;
+  animation: topbar-animation var(--speed) ease infinite;
+}
+.winButton-3UMjdg {
+  background-color: transparent;
+}
+  @keyframes topbar-animation { 
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }

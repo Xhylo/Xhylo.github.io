@@ -1,0 +1,51 @@
+@import https://raw.githack.com/mr-miner1/Better-Badges/main/theme.css;
+.guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-2sGCg9{position:fixed;transform:translate3d(0,198px,0)!important}
+
+   :root {
+      --toast-border: rgba(29, 30, 56, 0.952) !important; 
+      --toast-border-radius: 12px !important;
+      --toast-background: #181c33 !important; 
+      --toast-box-shadow: var(--background-tertiary) !important; 
+      --toast-header: var(--background-tertiary) !important; 
+   }
+   .powercord-toast-container .powercord-toast {
+         display: flex;
+         flex-direction: column;
+         background-color: var(--toast-background);
+         border: 1px solid var(--toast-border);
+         box-shadow: 0 2px 10px 0 var(--toast-box-shadow);
+         border-radius: var(--toast-border-radius);
+         box-sizing: border-box;
+         position: absolute;
+         animation: slide-in 0.5s ease, shake 1.4s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+         max-width: 600px;
+         min-width: 223px;
+         width: 380px;
+         right: 260px;
+         bottom: 95px;
+         z-index: 999;
+   }
+   .powercord-toast-container .powercord-toast .header {
+      display: flex;
+      color: var(--text-normal);
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 19px;
+      
+      background-color: var(--toast-header);
+      box-shadow: 0 2px 3px 0 var(--toast-box-shadow);
+      border-radius: 5px 5px 0 0;
+      padding: 12px 20px;
+  }
+
+  .powercord-toast-container .powercord-toast .buttons {
+   box-sizing: border-box;
+   background-color: var(--toast-background);
+   flex-wrap: wrap;
+   display: flex;
+   width: 100%;
+   padding: 10px;
+}
+   .sidebar-2K8pFh {
+      margin-bottom: -40px;
+  }

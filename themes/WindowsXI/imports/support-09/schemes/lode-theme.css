@@ -1,0 +1,157 @@
+:root {
+
+   /* Gradients */
+   --default-gradient: 315deg, #257583 0%, #167B70 74% !important;
+   --special-gradient: 315deg, #8980F0 0%, #D577F0 74% !important;
+   --red-gradient: 315deg, #AA3738 0%, #F04747 74% !important;
+   --yellow-gradient: 315deg, #C2831B 0%, #FFB740 74% !important;
+   --green-gradient: 315deg, #58d38b 0%, #58d38b 74% !important;
+   --grey-gradient: 315deg, #203A43 0%, #28434d 74% !important;
+   --white-gradient: 315deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 74% !important;
+}
+
+/*  █▀▄ ▄▀█ █▀█ █▄▀
+ █▄▀ █▀█ █▀▄ █░█ */
+
+.theme-dark {
+
+--channeltextarea-background: #262c41 !important;
+
+--bd-color: #53b6a7 !important; 
+--bd-color-hover: #53b6a7 !important; 
+--alt-color: 56, 168, 151 !important; /* RGB */
+--alt-color2: #1bb69f !important; /* HEX */
+
+--playing-color: var(--alt-color2) !important; 
+--spotify-color: var(--alt-color2) !important;
+--streaming-color: rgb(127, 50, 179) !important; 
+
+/* Header Colors */
+--header-primary: #fff !important; 
+--header-secondary: #b9bbbe !important; 
+--channels-headings: var(--alt-color2) !important; 
+
+/* Text Colours */
+--text-normal: #f7f4f4 !important;
+--text-muted: #a39897 !important;
+--text-link: var(--alt-color2) !important;
+--channels-default: #ddd5d3 !important;
+--interactive-normal: #EAE1DF !important;
+--interactive-hover: #EAE1DF !important;
+--interactive-active: #fff !important;
+--interactive-muted: #505355 !important;
+
+/* Background Colours */
+--background-primary: #191f30 !important;
+--background-titlebar: #191f308f !important;
+--background-primary-alt: #191f30 !important;
+--background-secondary: #191f30 !important;
+--background-secondary-alt: #191f30 !important;
+--background-tertiary: #2c344d !important;
+--background-accent: var(--alt-color2) !important;
+--background-floating: #2b3341 !important;
+
+/* Mentioned  Colours */
+--background-mentioned: rgba(56, 168, 151, 0.233) !important;
+--background-mentioned-hover: rgba(56, 168, 151, 0.322) !important;
+--info-warning-foreground: var(--alt-color2) !important;
+
+--background-help-warning: rgba(250,166,26,0.1) !important; 
+--background-help-info: rgba(0,176,244,0.1) !important; 
+
+/* Scrollbar Colours */
+--scrollbar-thin-thumb: rgba(56, 168, 151, 0.397) !important;
+--scrollbar-thin-track: transparent !important;
+--scrollbar-auto-thumb: rgba(56, 168, 151, 0.363) !important;
+--scrollbar-auto-track: rgba(56, 168, 151, 0.363) !important;
+--scrollbar-auto-scrollbar-color-thumb: rgba(56, 168, 151, 0.384) !important;
+
+/* Box Shadow On Floating Elements Colours */
+--elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15) !important; 
+--elevation-low: 0 1px 0 rgba(18, 20, 36, 0.767),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05) !important;
+--elevation-medium: 0 4px 4px rgba(0,0,0,0.16) !important; 
+--elevation-high: 0 8px 16px rgba(0,0,0,0.24) !important; 
+
+--background-modifier-hover: rgba(56, 168, 151, 0.459);
+--background-modifier-active: rgba(56, 168, 151, 0.521);
+--background-modifier-selected: rgba(56, 168, 151, 0.178);
+--background-modifier-accent: rgba(56, 168, 151, 0.418);
+--background-message-hover: transparent;
+
+/* Other */
+--radio-group-dot-foreground: var(--alt-color) !important; 
+}
+
+
+/* █░░ █ █▀▀ █░█ ▀█▀
+█▄▄ █ █▄█ █▀█ ░█░ */
+
+.theme-light {
+
+--channeltextarea-background: #d6e4ee !important;    
+
+--bd-color: #53b6a7 !important; 
+--bd-color-hover: #53b6a7 !important; 
+--alt-color: 83, 182, 167 !important; /* RGB */
+--alt-color2: #53b6a7 !important; /* HEX */
+
+--scrollbars: block !important; 
+--public-servers: block !important; 
+--playing-color: var(--alt-color2) !important; 
+--spotify-color: var(--alt-color2) !important; 
+--streaming-color: rgb(127, 50, 179) !important; 
+
+/* Header Colors */
+--header-primary: #0f0f0e !important;
+--header-secondary: rgb(43, 45, 46) !important;
+--channels-headings: var(--alt-color2) !important; 
+
+/* Text Colours */
+--text-normal: #111010 !important;
+--text-muted: var(--alt-color2) !important;
+--text-link: var(--alt-color2) !important;
+--channels-default: #242221 !important;
+--interactive-normal: #080808 !important;
+--interactive-hover: #1a1818 !important;
+--interactive-active: rgb(19, 17, 17) !important;
+--interactive-muted: #505355 !important;
+
+/* Background Colours */
+--background-primary: #cad7e0 !important;
+--background-titlebar: #cad7e0 !important;
+--background-primary-alt: #cad7e0 !important;
+--background-secondary: #cad7e0 !important;
+--background-secondary-alt: #cad7e0 !important;
+--background-tertiary: #eceff3 !important;
+--background-accent: var(--alt-color2) !important;
+--background-floating: #bbc8d1 !important;
+
+/* Mentioned  Colours */
+--background-mentioned: rgba(56, 168, 151, 0.308) !important;
+--background-mentioned-hover: rgba(56, 168, 151, 0.425) !important;
+--background-mentioned-bar: var(--background-accent) !important;  
+
+--background-help-warning: rgba(250,166,26,0.1) !important; 
+--background-help-info: rgba(0,176,244,0.1) !important;  
+
+/* Scrollbar Colours */
+--background-modifier-hover: rgba(56, 168, 151, 0.411) !important;
+--background-modifier-active: rgba(56, 168, 151, 0.651) !important;
+--background-modifier-selected: rgba(56, 168, 151, 0.37) !important;
+--background-modifier-accent: rgba(56, 168, 151, 0.534) !important;
+
+/* Box Shadow On Floating Elements Colours */
+--elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15) !important;  
+--elevation-low: 0 1px 0 rgba(18, 20, 36, 0.767),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05) !important; 
+--elevation-medium: 0 4px 4px rgba(0,0,0,0.16) !important;  
+--elevation-high: 0 8px 16px rgba(0,0,0,0.24) !important;  
+
+--background-modifier-hover: rgba(56, 168, 151, 0.459);
+--background-modifier-active: rgba(56, 168, 151, 0.521);
+--background-modifier-selected: rgba(56, 168, 151, 0.178);
+--background-modifier-accent: rgba(56, 168, 151, 0.418);
+--background-message-hover: transparent;
+ 
+/* Other */
+--radio-group-dot-foreground: var(--alt-color2) !important;  /* Ignore */
+}

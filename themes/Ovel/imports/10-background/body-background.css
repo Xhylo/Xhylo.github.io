@@ -1,0 +1,15 @@
+body {
+  background-image: var(--background);
+  backdrop-filter: blur(var(--background-blur));
+  backdrop-filter: opacity(var(--background-opacity));
+  backdrop-filter: brightness(var(--background-brightness));
+}
+         --background-primary: transparent !important; 
+         --background-primary-alt: transparent !important; 
+         --background-secondary: transparent !important;
+         --background-secondary-alt: transparent !important; 
+         --background-tertiary: var(--background-colour) !important; 
+
+       .tree-2wKJdG, .guilds-1SWlCJ, .container-2lgZY8 {
+          background-color: transparent;
+       }

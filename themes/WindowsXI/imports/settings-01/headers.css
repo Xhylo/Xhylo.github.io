@@ -1,0 +1,111 @@
+  .sidebarRegionScroller-3MXcoP {
+    width: 230px !important;
+    margin-right: -10px;
+   }
+   .content-3YMskv[style="height: 2564px;"] {
+      margin-top: 52px;
+   }
+/* My Account */
+
+.settingsBanner-15-pZk {
+ background-image: var(--bg-avatar);
+}
+
+
+.hero-EvfTTA {
+  height: 420px;
+  background-image: url("https://i.imgur.com/NBvRLE7.gif") !important;
+  max-width: 23820px;
+  min-width: 400px;
+  background-position-y: 27%;
+  background-position-x: 10%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  text-align: left;
+}
+[class="contents-18-Yxp giftButton-2uAsFo"] {
+  color: #000;
+}
+.heroIcon-3QgOM5,.hero-EvfTTA .heroHeader-IulZgg,.heroBody-2P4UF5,.heroButtons-2NvgKB{
+  margin-left: -50%;
+  top: 10%;
+  position: relative;
+}
+
+.fieldList-21DyL8::before {
+ content: "General Info";
+ text-transform: capitalize;
+ font-weight: bold;
+ font-size: 18px;
+ color: #fff;
+ margin-top: -28px;
+ font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+ position: absolute;
+}
+.fieldList-21DyL8 {
+  margin-top: 25px
+}
+.marginTop40-i-78cZ {
+ margin-top: 15px;
+}
+.sidebarRegion-VFTUkN {
+ flex-grow: 0;
+}
+.contentColumnDefault-1VQkGM {
+ max-width: calc(100% - 60px);
+}
+
+.marketingLogo-1D8DV6 {
+  height: 80px;
+  border-radius: 12px;
+  background: linear-gradient(var(--special-gradient));
+  max-width: 1630px;
+  min-width: 400px;
+  background-position-y: 57%;
+  background-position-x: 10%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+  .marketingLogoIcon-3bZq9h {
+    margin-left: 600px;
+  }
+
+.contentRegionScroller-26nc1e .toolsContainer-1edPuj {
+   right: -15px !important;
+   margin-top: -50px;
+}
+
+.sidebar-CFHs9e{
+   margin-top: -50px;
+}
+
+
+   .layers-3iHuyZ>.layer-3QrUeG:first-child{
+      transform: scale(1) !important;
+      opacity: 1 !important;
+    }
+    .layers-3iHuyZ>.layer-3QrUeG:nth-child(2),.perksModal-fSYqOq{
+      background-color: rgba(15, 15, 15, 0.801)!important;
+      backdrop-filter: blur(9px);
+    }
+    .theme-light .layers-3iHuyZ>.layer-3QrUeG:nth-child(2),.theme-light .perksModal-fSYqOq{
+      background-color: rgba(255,255,255, 0.701)!important;
+      backdrop-filter: blur(9px);
+
+    .contentRegionScroller-26nc1e,.contentRegion-3nDuYy,.standardSidebarView-3F1I7i,
+    .sidebarRegionScroller-3MXcoP{
+      background: transparent;
+    }
+    .titleContainer-2CXtJo {
+      border-radius: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      top: 5px;
+    }
+    .header-2mZ9Ov {
+      border-radius: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      top: 5px;
+    }

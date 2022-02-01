@@ -1,0 +1,24 @@
+[class="banner-1YaD3N popoutBannerPremium-3i5EEI bannerPremium-kkSkPv"],
+[class="banner-1YaD3N popoutBanner-3cqRD9"] 
+{
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+
+/* Leeprky */
+.userPopout-2j1gM4[aria-label="Leeprky"] .headerNormal-3Zn_yu [class="banner-1YaD3N popoutBannerPremium-3i5EEI bannerPremium-kkSkPv"], 
+.userPopout-2j1gM4[aria-label="Leeprky"] .headerNormal-3Zn_yu [class="banner-1YaD3N popoutBanner-3cqRD9"] 
+{
+	background: var(--user-background) center/cover no-repeat;
+}
+*/
+  
+/* 01C1 */
+/* 
+.userPopout-2j1gM4[aria-label="01C1"] .headerNormal-3Zn_yu [class="banner-1YaD3N popoutBannerPremium-3i5EEI bannerPremium-kkSkPv"], 
+.userPopout-2j1gM4[aria-label="01C1"] .headerNormal-3Zn_yu [class="banner-1YaD3N popoutBanner-3cqRD9"] 
+{
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F24.media.tumblr.com%2F8b7e2dc271761981870c6847fbaed003%2Ftumblr_mv6ph7gaxK1sq027zo1_500.gif&f=1&nofb=1") !important;
+}
+*/

@@ -1,0 +1,15 @@
+  .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece, .scroller-2FKFPG::-webkit-scrollbar-track-piece{
+   border: 0;
+   margin-right: 0px;
+   background-color: #2e3440;
+   width:20px;
+ }
+ .auto-Ge5KZx::-webkit-scrollbar-thumb {
+   border-right:  6.5px solid transparent;
+   border-left:  6.5px solid transparent;
+   border-radius: 40.8%;
+ }
+ .auto-Ge5KZx::-webkit-scrollbar-track {
+   border-right:  6.5px solid transparent;
+   border-left:  6.5px solid transparent;
+ }

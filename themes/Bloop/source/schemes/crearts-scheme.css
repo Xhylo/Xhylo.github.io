@@ -1,0 +1,201 @@
+.theme-dark {
+
+    /* Main Colours - Try Keep These The Same */
+    --main-colour: 208, 2, 80 !important; /* RGB ONLY */
+    --main-colour2: #d00250 !important; /* HEX ONLY */
+    --main-colour3: 337 !important; /* HSL ONLY */
+  
+    /* Green Colours */
+    --green-color: var(--alt-color2) !important; /* HEX ONLY */
+    --green-color2: var(--alt-color) !important; /* RGB ONLY */
+    --green-bar-on: rgba(var(--alt-color), 0.3) !important; /* RGBA ONLY */
+    --green-bar-bg: var(--green-color) !important; /* RGB ONLY */
+    --green-slider-on: var(--green-color) !important; /* RGB ONLY */
+    --green-slider-off: rgba(var(--alt-color), 0.4) !important; /* RGBA ONLY */
+    --green-slider-dot: #fff !important;
+  
+    /* Status/Other Things Colours */
+    --wordmark-text: "Bloop" !important;
+    --watermark: none !important;
+    --square-rounding: 8px !important;
+    --sidebar-fade: 93% !important;
+    --memberlist-fade: 93% !important;
+    --sidebar-channels: 95% !important;
+
+    --text-glow: 0 0px 2.5px !important;
+    --avatar-glow: 0 0 6px !important;
+    --general-glow-strong: 0 0 5px !important;
+    --general-glow-weak: 0 0 1px !important;
+
+    --gaps: 0px !important;
+
+    --rs-online-color: #4cee8f !important;  /* Colour for online status */
+    --rs-idle-color: #f1c73d !important;  /* Colour for idle status */
+    --rs-dnd-color: #df4460 !important;  /* Colour for dnd status */
+    --rs-offline-color: #636b75 !important;  /* Colour for offline status */
+    --rs-streaming-color: #643da7 !important;  /* Colour for streaming status */
+    --rs-invisible-color: #747f8d !important;  /* Colour for invisible status - Note: this will only show for your own invisibility */
+  
+    --badge-size: 22px !important; /*discord defualt = 18px, theme defualt = 22px !important;*/
+    --badge-margin: 1.5px !important; /*discord default = 2px, theme defualt = 1.5px*/
+    --badges-everywhere-size: 15px !important; /*default = 15px*/
+
+    /* Header Colours */
+    --headers: #FFFFFF !important; /* */
+    --headers-secondary: #b9bbbe !important;
+  
+    --chatbox-colour: var(--background-secondary) !important;
+    --mentioned: rgba(var(--alt-color), 0.4) !important;
+    --mentioned-hover: rgba(var(--alt-color), 0.2) !important;
+  
+    /* Text Colours */
+    --namesusernames: #FFFFFF !important;
+    --text: #dcddde !important;
+    --text-positive1: var(--green-color) !important;
+    --muted: #70757e !important;
+    --links: var(--alt-color2) !important;
+    
+    /* Interative Buttons */
+    --button-interactive: #bebebe !important;
+    --button-interactive-hover: var(--main-colour2) !important;
+    --button-interactive-active: #bebebe !important;
+    --button-interactive-muted: #5b5e61 !important;
+  
+    /* Backgrounds */
+    --main-background: #323948 !important;
+    --main-background-alternative: #222a38 !important;
+    --secondary-background: #29303f !important;
+    --secondary-background-alternative: #323948 !important;
+    --tertiary: #202836 !important;
+    --accent: var(--alt-color2) !important;
+    --floating: #1f232c !important;
+  
+    /* Hovering Colours */
+    --main-hover: rgba(var(--alt-color), 0.2) !important;
+    --main-hover-active: rgba(var(--alt-color), 0.8) !important;
+    --main-hover-selected: rgba(var(--alt-color), 0.5) !important; 
+    --main-hover-accent: rgba(var(--alt-color), 0.1) !important; 
+  
+    /* Infos */
+    --info-warning: var(--alt-color2) !important;--help-warning: var(--alt-color2) !important; --help-info: var(--alt-color2) !important;--radio-group-dot: var(--alt-color) !important;
+  
+    /* Drop Shadow */
+    --shadow-stroke: 0 0 0 1px rgba(4,4,5,0.15) !important;
+    --shadow-low: 0 1px 0 rgba(18, 20, 36, 0.767),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05) !important;
+    --shadow-medium: 0 4px 4px rgba(0,0,0,0.16) !important;
+    --shadow-high: 0 8px 16px rgba(0,0,0,0.24) !important;
+  
+    /* Scollbars */
+    --scrollbars: none !important; /* Flex To See Scrollbars / None For None */
+    --scrollbar-small: #413838 !important;
+    --scrollbar-small-track: transparent !important;
+    --scrollbar-large-thumb: #413838 !important;
+    --scrollbar-large-track: #5d4e4e !important;
+    --scrollbar-small-scrollbar-color: #413838 !important;
+    --scrollbar-small-scrollbar-color-track: #5d4e4e !important;
+  
+    /* Button Gradients */
+    --default-gradient: 315deg, rgba(var(--alt-color), 0.6) 0%, rgba(var(--alt-color), 0.8) 74% !important;--special-gradient: 315deg, rgba(var(--alt-color), 0.1) 0%, #c987b8 74% !important;--red-gradient: 315deg, #AA3738 0%, #F04747 74% !important;--red-hsl: hsl(359, 63%, 53%) !important;--yellow-gradient: 315deg, #c29b1b 0%, #ffa640 74% !important;--yellow-hsl: hsl(46, 72%, 52%) !important;--green-gradient: 315deg, #507a73 0%, #4b7c72  74% !important;--grey-gradient: 315deg, rgba(var(--alt-color), 0.6) 0%, rgba(var(--alt-color), 0.8) 74% !important;--white-gradient: 315deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.342) 74% !important;
+    --font-normal: 500 !important;--font-hover: bold !important;--font-size-hover: 15px !important;--hover-transition: 0.1s linear !important;--transform-normal: scale(1) !important;--hover-transform: scale(1.15) !important;--setting-hover-transform: scale(1.025) !important;--button-hover-transform: scale(1.03) !important;
+  }
+
+  .theme-light {
+
+    /* Main Colours - Try Keep These The Same */
+    --main-colour: 208, 2, 80 !important; /* RGB ONLY */
+    --main-colour2: #d00250 !important; /* HEX ONLY */
+    --main-colour3: 337 !important; /* HSL ONLY */
+  
+    /* Green Colours */
+    --green-color: var(--alt-color2) !important; /* HEX ONLY */
+    --green-color2: var(--alt-color) !important; /* RGB ONLY */
+    --green-bar-on: rgba(var(--alt-color), 0.3) !important; /* RGBA ONLY */
+    --green-bar-bg: var(--green-color) !important; /* RGB ONLY */
+    --green-slider-on: var(--green-color) !important; /* RGB ONLY */
+    --green-slider-off: rgba(var(--alt-color), 0.4) !important; /* RGBA ONLY */
+    --green-slider-dot: #fff !important;
+  
+    /* Status/Other Things Colours */
+    --wordmark-text: "Bloop" !important;
+    --watermark: none !important;
+    --square-rounding: 8px !important;
+    --sidebar-fade: 93% !important;
+    --memberlist-fade: 93% !important;
+    --sidebar-channels: 95% !important;
+
+    --text-glow: 0 0px 2.5px !important;
+    --avatar-glow: 0 0 6px !important;
+    --general-glow-strong: 0 0 5px !important;
+    --general-glow-weak: 0 0 1px !important;
+
+    --gaps: 0px !important;
+
+    --rs-online-color: #4cee8f !important;  /* Colour for online status */
+    --rs-idle-color: #f1c73d !important;  /* Colour for idle status */
+    --rs-dnd-color: #df4460 !important;  /* Colour for dnd status */
+    --rs-offline-color: #636b75 !important;  /* Colour for offline status */
+    --rs-streaming-color: #643da7 !important;  /* Colour for streaming status */
+    --rs-invisible-color: #747f8d !important;  /* Colour for invisible status - Note: this will only show for your own invisibility */
+  
+    --badge-size: 22px !important; /*discord defualt = 18px, theme defualt = 22px !important;*/
+    --badge-margin: 1.5px !important; /*discord default = 2px, theme defualt = 1.5px*/
+    --badges-everywhere-size: 15px !important; /*default = 15px*/
+
+    /* Header Colours */
+    --headers: #383838 !important; /* */
+    --headers-secondary: #343435 !important;
+  
+    --chatbox-colour: var(--background-secondary) !important;
+    --mentioned: rgba(var(--alt-color), 0.4) !important;
+    --mentioned-hover: rgba(var(--alt-color), 0.2) !important;
+  
+    /* Text Colours */
+    --namesusernames: #5c5a5a !important;
+    --text: #505050 !important;
+    --text-positive1: var(--green-color) !important;
+    --muted: #d1cecb !important;
+    --links: var(--alt-color2) !important;
+    
+    /* Interative Buttons */
+    --button-interactive: #666565 !important;
+    --button-interactive-hover: var(--main-colour2) !important;
+    --button-interactive-active: #252525 !important;
+    --button-interactive-muted: #999b9c !important;
+  
+    /* Backgrounds */
+    --main-background: #f5f1eb !important;
+    --main-background-alternative: #f5f1eb !important;
+    --secondary-background: #eeece8 !important;
+    --secondary-background-alternative: #e7e6e4 !important;
+    --tertiary: #ffffff !important;
+    --accent: var(--alt-color2) !important;
+    --floating: #f5f5f7 !important;
+  
+    /* Hovering Colours */
+    --main-hover: rgba(var(--alt-color), 0.2) !important;
+    --main-hover-active: rgba(var(--alt-color), 0.8) !important;
+    --main-hover-selected: rgba(var(--alt-color), 0.5) !important; 
+    --main-hover-accent: rgba(var(--alt-color), 0.1) !important; 
+  
+    /* Infos */
+    --info-warning: var(--alt-color2) !important;--help-warning: var(--alt-color2) !important; --help-info: var(--alt-color2) !important;--radio-group-dot: var(--alt-color) !important;
+  
+    /* Drop Shadow */
+    --shadow-stroke: 0 0 0 1px rgba(4,4,5,0.15) !important;
+    --shadow-low: 0 1px 0 rgba(18, 20, 36, 0.767),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05) !important;
+    --shadow-medium: 0 4px 4px rgba(0,0,0,0.16) !important;
+    --shadow-high: 0 8px 16px rgba(0,0,0,0.24) !important;
+  
+    /* Scollbars */
+    --scrollbars: none !important; /* Flex To See Scrollbars / None For None */
+    --scrollbar-small: #413838 !important;
+    --scrollbar-small-track: transparent !important;
+    --scrollbar-large-thumb: #413838 !important;
+    --scrollbar-large-track: #5d4e4e !important;
+    --scrollbar-small-scrollbar-color: #413838 !important;
+    --scrollbar-small-scrollbar-color-track: #5d4e4e !important;
+  
+    /* Button Gradients */
+    --default-gradient: 315deg, rgba(var(--alt-color), 0.6) 0%, rgba(var(--alt-color), 0.8) 74% !important;--special-gradient: 315deg, rgba(var(--alt-color), 0.1) 0%, #c987b8 74% !important;--red-gradient: 315deg, #AA3738 0%, #F04747 74% !important;--red-hsl: hsl(359, 63%, 53%) !important;--yellow-gradient: 315deg, #c29b1b 0%, #ffa640 74% !important;--yellow-hsl: hsl(46, 72%, 52%) !important;--green-gradient: 315deg, #507a73 0%, #4b7c72  74% !important;--grey-gradient: 315deg, rgba(var(--alt-color), 0.6) 0%, rgba(var(--alt-color), 0.8) 74% !important;--white-gradient: 315deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.342) 74% !important;
+    --font-normal: 500 !important;--font-hover: bold !important;--font-size-hover: 15px !important;--hover-transition: 0.1s linear !important;--transform-normal: scale(1) !important;--hover-transform: scale(1.15) !important;--setting-hover-transform: scale(1.025) !important;--button-hover-transform: scale(1.03) !important;
+  }

@@ -1,0 +1,43 @@
+@import "https://raw.githack.com/mr-miner1/Better-Badges/main/BetterBadges(BD).theme.css";
+@import "https://discord-custom-covers.github.io/usrbg/dist/usrbg.css";
+
+.bd-button,.bd-server-tag,.bd-addon-views .bd-view-button.selected{background-color:var(--bd-color)}
+.bd-button:hover{background-color:var(--bd-color-hover)}
+#bd-pub-button:hover{background-color:var(--bd-color-hover)}
+#bd-pub-li{display:var(--public-servers)}
+[class="listItem-GuPuDH friendsOnlineWrap-0gZ63m"]{display:none}
+.guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-2sGCg9{position:fixed;transform:translate3d(0,200px,0)}
+.guilds-1SWlCJ .scroller-1Bvpku{margin-top:330px!important;contain:unset!important}
+.noticeWrapper-8z511t,.notice-3bPHh-,.notice-3uyY6c{margin-left:340px;margin-top:108px;width:650px;position:absolute;border-radius:0}
+.bd-toast.toast-success {
+   background-color: var(--green-color);
+}
+       .userPopout-xaxa6l[style*="--user-background"] .banner-2QYc2d,
+       .root-3QyAh1[style*="--user-background"] .banner-2QYc2d {
+           height: 200px;
+           background: var(--background-floating) var(--user-background) var(--user-popout-position, center) center / cover !important;
+       }
+       .userPopout-xaxa6l[style*="--user-background"] .avatarPositionNormal-aZjAsn {
+           top: 120px;
+       }
+       .root-3QyAh1[style*="--user-background"] .banner-2QYc2d {
+           height: 240px;
+       }
+
+   .noticeWrapper-8z511t, .notice-3bPHh-, .notice-3uyY6c {
+    margin-left: 540px;
+    margin-top: 50px;
+    position: absolute;
+}
+      .sidebar-2K8pFh {
+         margin-bottom: -40px;
+     }
+     .container-3baos1  {
+      margin-top: 0px;
+    }
+
+.nameTag-3uD-yy{
+    position: fixed;
+    top: 35px;
+    left: 75px;
+}

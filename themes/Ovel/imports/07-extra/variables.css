@@ -1,0 +1,5 @@
+::-webkit-scrollbar{display:var(--scrollbars)}
+.iconWrapper-2awDjA.clickable-ZD7xvu[aria-label="Help"]{display:none}
+.selected-29KTGM .icon-2xnN2Y{color:var(--interactive-active-icons)}
+.clickable-ZD7xvu:hover .icon-2xnN2Y{color:var(--interactive-hover-icons);transition:.7s}
+div[aria-label="USER_SETTINGS"] .info-1sUqUG:last-child > div:last-child::after {margin-top: 10px;}

@@ -1,0 +1,73 @@
+   .userPopout-xaxa6l{border-radius:12px}
+   .avatarPositionNormal-aZjAsn{transform:scale(1.28);margin-left:28%;margin-top:7.5%}
+.avatarPositionPremium-3We5Ho {
+   transform: scale(1.28);
+   margin-left: 28%;
+   margin-top: -5.5%;
+}
+   .popoutBanner-19WKGg{width:300px;height:95px;transform-origin:top}
+   .popoutBannerPremium-1n96gg{width:300px;height:112px;transform-origin:top}
+   .bodyTitle-3FWCs2,.endBodySection-ypd-38,.aboutMeTitle-2i3lnH,.clamped-IwJfxR{justify-content:center;text-align:center;margin-left:-15px}
+   .note-1MiCN7,.footer-1N3bR3,.bodyTitle-3FWCs2{display:none}
+   .aboutMeSection-1Fw5Ia{margin-bottom:-10px; margin-top: -10px;}
+   .rolesList-1geHY1::before{content:"Roles";top:-22px;left:42%;position:absolute;font-family:var(--font-primary);font-weight:700;color:var(--interactive-normal);}
+   .rolesList-1geHY1 {
+   margin-top: 40px;
+   }
+   .userSelectText-1o1dQ7, .nickname-3M3Jfa, .customStatus-oN4ZZY{margin-left:-3.5%;margin-top:-5%;justify-content:center;text-align:center}
+   .customStatus-2SDCR6, .rolesList-1geHY1,.bodyTitle-1ySSKn, .setIdentityLink-1t8Ahd, .headerTagNoNickname-3qrd77, .headerTagWithNickname-3l_x6x{text-align:center;justify-content:center;margin-left:-3.5%}
+   .profileBadges-ohc0Vu, .base-1x0h_U.muted-3-7c5L, .note-1oo11U, .footer-3UKYOU{display:none; margin-bottom: 15px;}
+   .role-2irmRk{position:relative;overflow:hidden;border:none;padding:5px}
+   .roleCircle-3xAZ1j::before{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background:inherit;opacity:.2;pointer-events:none}
+   
+   .theme-dark .newPopoutActivityStyles .spotifyIcon-2J9kSv, .theme-light .newPopoutActivityStyles .spotifyIcon-2J9kSv {
+      display: none;
+   }
+   .activityUserPopout-2yItg2 {
+      background-color: var(--alt-color2);
+      margin-left: 0px;
+  }
+.userSelectText-1o1dQ7, .nickname-3M3Jfa, .customStatus-oN4ZZY {
+   margin-left: -3.5%;
+   margin-top: 0% !important;
+   justify-content: center;
+   text-align: center;
+}
+
+ .popoutBanner-19WKGg {
+    background-color: var(--alt-color2) !important;
+ }
+ .activityUserPopout-2yItg2 {
+   background-color: var(--alt-color2);
+   margin-left: 0px !important;
+}
+   
+.avatar-AvHqJA, .avatar-37jOim {
+   border-radius: var(--avatar-radius);
+}
+
+/* Other Modals */
+ .popoutRoleDot-1XPcoA {
+  width: 226px;
+  height: 30px;
+  z-index: 1;
+  position: absolute;
+  background-color: currentColor;
+  border-radius: 8px;
+  right: -5px;
+  margin-left: 10px;
+  opacity: 0.2;
+ }
+ .itemLabel-38pPIt {
+   z-index: 2;
+   color: #fff;
+ }
+ .focused-dKLoQt, .item-2J2GlB:hover {
+  background-color: rgba(255, 255, 255, 0.308);
+  color: var(--interactive-hover);
+}
+ .container-3XJ8ns {
+   background-color: var(--background-floating);
+   border-radius: var(--border-radius);
+ }
+

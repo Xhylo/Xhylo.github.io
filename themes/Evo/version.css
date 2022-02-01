@@ -1,0 +1,14 @@
+@import "https://leeprky.github.io/themes/Ovel/imports/07-extra/version.css";
+
+/* Outdated Version Code*/
+:root {
+   --theme: "Evo";
+   --build-latest: "001";
+   --version-latest: "v0.0.1";
+   --version-latest-long: "Version: " var(--version-latest) " (Latest) ";
+   --version-long: "Version: " var(--version) " (Current) ";
+   --theme-dl: "https://github.com/leeprky/Evo"
+}
+
+#app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div.base-2jDfDU:before{display:var(--outdated_evo-001,block)!important;position:absolute;left:32%!important;width:fit-content;border-radius:0 0 12px 12px!important;top:48px!important}
+:root {--version: "UNKOWN"; --build: "UNKNOWN"; --outdated_evo-001: var(--outdated_evo-001), block}

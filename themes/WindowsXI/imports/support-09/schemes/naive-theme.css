@@ -1,0 +1,90 @@
+:root {
+
+   /* Gradients */
+   --default-gradient: 315deg, #e51971d5 0%, #e42b7bd5 74% !important;
+   --special-gradient: 315deg, #8980F0 0%, #D577F0 74% !important;
+   --red-gradient: 315deg, #AA3738 0%, #F04747 74% !important;
+   --yellow-gradient: 315deg, #C2831B 0%, #FFB740 74% !important;
+   --green-gradient: 315deg, #58d38b 0%, #58d38b 74% !important;
+   --grey-gradient: 315deg, #43202d 0%, #4d2839 74% !important;
+   --white-gradient: 315deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 74% !important;
+}
+
+/*  █▀▄ ▄▀█ █▀█ █▄▀
+ █▄▀ █▀█ █▀▄ █░█ */
+
+.theme-dark {
+
+--channeltextarea-background: #232b41 !important;
+
+--bd-color: #e51971d5 !important; 
+--bd-color-hover: #e51971d5 !important; 
+--alt-color: 228, 25, 112 !important; /* RGB */
+--alt-color2: #e51971d5 !important; /* HEX */
+
+--playing-color: var(--alt-color2) !important; 
+--spotify-color: var(--alt-color2) !important;
+--streaming-color: rgb(127, 50, 179) !important; 
+
+/* Header Colors */
+--header-primary: #E51971 !important;
+--header-secondary: #8E949C !important;
+--channels-headings: var(--alt-color2) !important; 
+
+/* Text Colours */
+--text-normal: #F4F7F5 !important;
+--text-muted: rgb(73, 78, 87) !important;
+--text-link: #E51971 !important;
+--channels-default: #8e9297 !important;
+--interactive-normal: #b9bbbe !important;
+--interactive-hover: #dcddde !important;
+--interactive-active: #ebe9ea !important;
+--interactive-muted: rgb(73, 78, 87) !important;
+
+/* Background Colours */
+--background-titlebar: #232935 !important;
+--background-primary-alt: #232935 !important;
+--background-primary: #232935 !important;
+--background-secondary: #232935 !important;
+--background-secondary-alt: #232935 !important;
+--background-tertiary: #1a1f27 !important;
+--background-accent: #e51971d5 !important;
+--background-floating: #232934 !important;
+
+/* Mentioned  Colours */
+--background-modifier-hover: #e2277815 !important;
+--background-modifier-active: #e227783d !important;
+--info-warning-foreground: var(--alt-color2) !important;
+
+--background-help-warning: rgba(250,166,26,0.1) !important; 
+--background-help-info: rgba(0,176,244,0.1) !important; 
+
+/* Scrollbar Colours */
+--scrollbar-thin-thumb: rgba(204, 29, 64, 0.185) !important;
+--scrollbar-thin-track: transparent !important;
+--scrollbar-auto-thumb: #a0193b3b !important;
+--scrollbar-auto-track: #e5197118 !important;
+--scrollbar-auto-scrollbar-color-thumb: #9c203f9a !important;
+
+/* Box Shadow On Floating Elements Colours */
+--elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15) !important; 
+--elevation-low: 0 1px 0 rgba(18, 20, 36, 0.767),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05) !important;
+--elevation-medium: 0 4px 4px rgba(0,0,0,0.16) !important; 
+--elevation-high: 0 8px 16px rgba(0,0,0,0.24) !important; 
+
+--scrollbar-thin-thumb: rgba(204, 29, 64, 0.185) !important;
+--scrollbar-thin-track: transparent !important;
+--scrollbar-auto-thumb: #a0193b3b !important;
+--scrollbar-auto-track: #e5197118 !important;
+--scrollbar-auto-scrollbar-color-thumb: #9c203f9a !important;
+--scrollbar-auto-scrollbar-color-track: #94143477 !important;
+
+--background-modifier-selected: #e2277815 !important;
+--background-modifier-accent: hsla(0,0%,100%,0.06) !important;
+--background-mentioned: rgba(250, 26, 101, 0.05) !important;
+--background-mentioned-hover: rgba(250, 26, 101, 0.08) !important;
+--background-message-hover: rgba(224, 22, 89, 0.07) !important;
+
+/* Other */
+--radio-group-dot-foreground: var(--alt-color) !important; 
+}

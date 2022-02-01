@@ -1,0 +1,66 @@
+.theme-dark {
+
+   --channeltextarea-background: #202125 !important;
+
+  --bd-color: #285651 !important;
+  --bd-color-hover: #224945 !important;
+  --alt-color: 40, 86, 81 !important; /* RGB */
+  --alt-color2: #285651 !important; /* HEX */
+   
+   --playing-color: var(--alt-color2) !important; 
+   --spotify-color: var(--alt-color2) !important;
+   --streaming-color: rgb(127, 50, 179) !important; 
+   
+    /* Header Colors */
+    --header-primary: #EAE1DF !important;
+    --header-secondary: rgb(159, 161, 163) !important;
+    --channels-headings: var(--alt-color2) !important; 
+  
+    /* Text Colours */
+    --text-normal: #dcddde !important;
+    --text-muted: #72767d !important;
+    --text-link: #008C67 !important;
+    --channels-default: #8e9297 !important;
+    --interactive-normal: #b9bbbe !important;
+    --interactive-hover: #dcddde !important;
+    --interactive-active: rgb(231, 222, 222) !important;
+    --interactive-muted: #313233 !important;
+   
+    /* Background Colours */
+    --background-primary: #24262b !important;
+    --background-primary-alt: #24262b !important;
+    --background-secondary: #24262b !important;
+    --background-secondary-alt: #24262b !important;
+    --background-tertiary: #34373b !important;
+    --background-accent: var(--alt-color2) !important;
+    --background-floating: #18191c !important;
+   
+    /* Mentioned  Colours */
+    --background-mentioned: rgba(89, 250, 26, 0.055) !important;
+    --background-mentioned-hover: rgba(58, 180, 20, 0.08) !important;
+    --info-warning-foreground: var(--alt-color2) !important;
+   
+    --background-help-warning: rgba(250,166,26,0.1) !important; 
+    --background-help-info: rgba(0,176,244,0.1) !important; 
+   
+    /* Scrollbar Colours */
+    --scrollbar-thin-thumb: rgba(56, 168, 151, 0.397) !important;
+    --scrollbar-thin-track: transparent !important;
+    --scrollbar-auto-thumb: rgba(56, 168, 151, 0.363) !important;
+    --scrollbar-auto-track: rgba(56, 168, 151, 0.363) !important;
+    --scrollbar-auto-scrollbar-color-thumb: rgba(56, 168, 151, 0.384) !important;
+   
+   /* Box Shadow On Floating Elements Colours */
+   --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15) !important; 
+   --elevation-low: 0 1px 0 rgba(18, 20, 36, 0.767),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05) !important;
+   --elevation-medium: 0 4px 4px rgba(0,0,0,0.16) !important; 
+   --elevation-high: 0 8px 16px rgba(0,0,0,0.24) !important; 
+       
+   --background-modifier-hover: rgba(116,127,141,0.08) !important;
+   --background-modifier-active: rgba(116,127,141,0.16) !important;
+   --background-modifier-selected: rgba(116,127,141,0.24) !important;
+   --background-modifier-accent: rgba(6,6,7,0.08) !important;
+
+   /* Other */
+   --radio-group-dot-foreground: var(--alt-color) !important; 
+   }

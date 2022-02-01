@@ -1,0 +1,138 @@
+
+
+             .footer-1fjuF6 {
+               display: none;
+            }
+
+            .content-yTz4x3:before {
+               -webkit-box-shadow: none;
+               box-shadow: none;
+            }
+            
+            .tabBody-3YRQ8W:before {
+               -webkit-box-shadow: none;
+               box-shadow: none;
+            }
+            
+            .container-19hC9u:before {
+               -webkit-box-shadow: none;
+               box-shadow: none;
+            }
+            
+            .container-xm7Ad0:before {
+               -webkit-box-shadow: none;
+               box-shadow: none;
+            }
+
+            .header-2V-4Sw {
+               -webkit-box-shadow: none;
+               box-shadow: none;
+            }
+ .avatar-SmRMf2.spotify-cover{
+   animation: rotate 3s infinite;
+   -webkit-animation-timing-function: linear;
+   border-radius: 50% !important;
+ }
+.powercord-spotify {
+   background-color: var(--background-tertiary);
+   box-shadow: 0px 22px var(--background-primary);
+   right: 0.4%;
+   width: 225px;
+   bottom: 22px;
+   position: absolute;
+}
+.powercord-spotify .spotify-buttons {display: none;}
+.powercord-spotify.hover .spotify-buttons {display: flex !important;}
+.spotify-seek-bar, .powercord-spotify .spotify-seek-bar-progress{height:3.8px !important;}
+          .panels-j1Uci_ {
+              background-color: var(--background-secondary);
+           }
+           .listDefault-3ir5aS .clickable-1lCRLF.selected-3t3Csj .username-3KYl0N, .usernameSpeaking-RmltQx {
+            color: rgba(var(--alt-color), 9);
+            filter: brightness(150%);
+        }
+
+
+/* -------- BASE ---- */
+
+              :root {
+               /* ---- base -- */
+               --indicator-border-info: 2px solid;
+           
+               /* ---- selected -- */
+               --indicator-selected-border: rgba(var(--indicator-selected));
+               --indicator-selected-background: rgba(var(--indicator-selected), 0.1);
+               --indicator-selected-hover: rgba(var(--indicator-selected), 0.18);
+           
+               /* ---- unreads -- */
+               --indicator-unread-border: rgba(var(--indicator-unread), 0.6);
+               --indicator-unread-background: rgba(var(--indicator-unread), 0.01);
+               
+               /* ---- connected -- */
+               --indicator-connected-border: rgba(var(--indicator-connected));
+               --indicator-connected-background: rgba(var(--indicator-connected), 0.1);
+               --indicator-connected-hover: rgba(var(--indicator-connected), 0.18);
+           }
+         
+
+/* ---- Borders -- */
+#app-mount {
+	/* ---- Remove Default -- */
+	/* -------- CHANNEL INDICATORS ---- */
+	/* ---- Channel Hover -- */
+	/* ---- Channel Selected -- */
+	/* ---- Channel Unread -- */
+	/* ---- VC Connected -- */
+	/* ---- DM Channel Positioning -- */
+}
+ #app-mount .containerDefault--pIXnN .wrapper-2jXpOf, #app-mount .channel-2QD9_O {
+	 border-radius: var(--indicator-rounding) !important;
+}
+ #app-mount .containerDefault--pIXnN .wrapper-2jXpOf::before, #app-mount .channel-2QD9_O::before {
+	 content: "";
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 bottom: 0;
+}
+ #app-mount .content-1x5b-n, #app-mount .channel-2QD9_O .layout-2DM8Md {
+	 background-color: transparent;
+}
+ #app-mount .containerDefault--pIXnN .wrapper-2jXpOf:not(.modeSelected-346R90):not(.modeConnected-3IsKId):hover, #app-mount .channel-2QD9_O:not(.selected-aXhQR6):hover {
+	 background: var(--indicator-hovered);
+}
+ #app-mount .modeSelected-346R90, #app-mount .channel-2QD9_O.selected-aXhQR6 {
+	 background-color: var(--indicator-selected-background);
+}
+ #app-mount .modeSelected-346R90:hover, #app-mount .channel-2QD9_O.selected-aXhQR6:hover {
+	 background-color: var(--indicator-selected-hover);
+}
+ #app-mount .modeSelected-346R90::before, #app-mount .channel-2QD9_O.selected-aXhQR6::before {
+	 border-left: var(--indicator-border-info) var(--indicator-selected-border);
+}
+ #app-mount .modeUnread-1qO3K1 {
+	 background: var(--indicator-unread-background);
+}
+ #app-mount .modeUnread-1qO3K1::before {
+	 border-left: var(--indicator-border-info) var(--indicator-unread-border);
+}
+ #app-mount .modeUnread-1qO3K1 .unread-2lAfLh {
+	 display: none;
+}
+ #app-mount .modeConnected-3IsKId {
+	 background-color: var(--indicator-connected-background);
+}
+ #app-mount .modeConnected-3IsKId:hover {
+	 background-color: var(--indicator-connected-hover);
+}
+ #app-mount .modeConnected-3IsKId::before {
+	 border-left: var(--indicator-border-info) var(--indicator-connected-border);
+}
+ #app-mount .channel-2QD9_O {
+	 margin-left: 0;
+	 max-width: 100%;
+}
+ #app-mount .channel-2QD9_O div .avatar-3uk_u9 {
+	 margin-left: 8px;
+}
+ 

@@ -1,0 +1,48 @@
+.titleBar-AC4pGV > *:nth-child(2):hover {background-color: #aa2210;}
+.titleBar-AC4pGV > *:nth-child(3):hover {background-color: #c9990a;}
+.titleBar-AC4pGV > *:nth-child(4):hover {background-color: #0ea70e;}
+.layer-3QrUeG.baseLayer-35bLyl {background-color: var(--background-tertiary) !important;}
+/* .container-2lgZY8 {margin-top: 10px;} */
+.withFrame-haYltI {
+  padding-top: 0.5px;
+  height: 26.5px;
+  margin-top: 4px;
+}
+   .wordmark-2iDDfm:after {
+      color: rgb(247, 245, 245);
+      content: "Discord";
+      font-size: 15px;
+      font-weight: 700;
+      position: absolute;
+      width: 4000px;
+      top: 8.8px;
+    }
+   .wordmark-2iDDfm:before{
+      content: "" var(--version);
+      color: rgba(var(--alt-color), 0.7);
+      background-color: var(--glasscord-secondary-alt);
+      font-size: 14.1px;
+      font-weight: 700;
+      position: absolute;
+      display: var(--display-version) !important;
+      width: 4000px;
+      top: 9.5px;
+      left: calc(var(--Watermark-Alignment) + 310%);
+      display: var(--version-display);
+    }
+.wordmark-2iDDfm {
+   left: var(--Watermark-Alignment);
+   top: -0.5px;
+}
+.theme-light .wordmark-2iDDfm:after {color: rgb(48, 48, 48);}
+.theme-dark .wordmark-2iDDfm:after {color: rgb(247, 245, 245);}
+.wordmark-2iDDfm > svg {width: 0px;}
+.winButton-iRh8-Z {
+   position: relative;
+   top: -3.5px;
+   cursor: pointer;
+   width: 32px;
+   height: 30px;
+   pointer-events: auto;
+   -webkit-app-region: no-drag;
+}

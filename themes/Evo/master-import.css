@@ -1,0 +1,11 @@
+@import "https://leeprky.github.io/themes/FullyThemedDiscord/FullyThemedDiscord.css";
+@import "https://leeprky.github.io/themes/BaseStuff/alt-color.css"; 
+@import "https://leeprky.github.io/snippits/coolsniipitsforthemes.css"; 
+@import "https://leeprky.github.io/themes/lode/default/support/gradients/luckfiregradientbuttons.css";
+@import "https://leeprky.github.io/themes/GreenBeGo/greenple-replacer.css";
+@import "https://leeprky.github.io/themes/Evo/version.css";
+@import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
+
+.members-3WRCEx, .members-3WRCEx>div, .container-2o3qEW {
+  background-color: transparent !important;
+}

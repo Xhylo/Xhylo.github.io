@@ -1,0 +1,28 @@
+[class="message-2qnXI6 cozyMessage-3V1Y8y mentioned-xhSam7 groupStart-23k01U wrapper-2a6GCs cozy-3raOZG zalgo-jN1Ica"],[class="message-2qnXI6 cozyMessage-3V1Y8y mentioned-xhSam7 wrapper-2a6GCs cozy-3raOZG zalgo-jN1Ica"],[class="message-2qnXI6 cozyMessage-3V1Y8y mentioned-xhSam7 groupStart-23k01U wrapper-2a6GCs cozy-3raOZG zalgo-jN1Ica hasReply-34In-r"]{background-color:var(--background-mentioned)}
+.mentioned-xhSam7:before{background-color:var(--background-mentioned-bar)}
+   .timestamp-3ZCmNB {
+     opacity: 0;
+     transition: 150ms;
+   }
+   .mouse-mode .wrapper-2a6GCs:hover .timestamp-3ZCmNB {
+     opacity: 1;
+     transition: 150ms;
+     margin-left: 10px;
+   }
+   .cozy-3raOZG .timestamp-3ZCmNB.alt-1uNpEt {
+     left: -15px;
+   }
+
+   .divider-JfaTT5 {
+     background-color: var(--background-accent3);
+   }
+   .content-1o0f9g {
+     color: var(--background-accent3);
+   }
+   .unreadPillCap-3_K2q2, .unreadPillCap-3_K2q2, .unreadPillCapStroke-7rkHbg {
+     fill: var(--background-accent3) !important;
+     color: var(--background-accent3) !important;
+   }
+   .jumpToPresentBar-G1R9s6 {
+      margin-bottom: 6px;
+   }

@@ -1,0 +1,28 @@
+/* Background*/
+#app-mount .container-2cd8Mz,.app-2CXKsg,.bg-1QIAus,.chat-2ZfjoI,.content-3spvdd,.contentRegionScroller-2_GT_N,.layer-86YKbF,.members-3WRCEx>div,.scroller-WSmht3,.applicationStore-2nk7Lo,.scroller-3_YDR2,.sidebar-1tnWFu,.standardSidebarView-E9Pc3j,.wrapper-15CKyy,.wrapper-1_HaEi,.wrapper-22ayhK,body{background:0 0}.container-1NXEtd,.members-3WRCEx,.nowPlayingColumn-1eCBCN,.privateChannels-oVe7HL,.sidebar-1tnWFu>.scrollerBase-_bVAAt,.sidebarRegionScroller-FXiQOh{background:rgba(47,49,54,var(--sides-transp))}.panels-3wFtMD {background:rgba(41,43,47,var(--sides-transp))}.scroller-3X7KbA,.withFrame-2dL45i, .nowPlayingColumn-1eCBCN{background:rgba(32,34,37,var(--sides-transp))}.scroller-29cQFV,#app-mount .pageWrapper-2PwDoS,.chatContent-3KubbW,.contentRegion-3HkfJJ,.header-1iEhSH::after,.peopleColumn-1wMU14,.stickyHeader-1Sunlx::after,.titleContainer-3fPic2::after{background:rgba(54,57,63,var(--chat-transp))}.container-ZMc96U.themed-Hp1KC_, .container-1oAagU{background:rgba(54,57,63,var(--sides-transp))}.container-ZMc96U.themed-Hp1KC_,.members-3WRCEx,.nowPlayingColumn-1eCBCN,.scroller-3X7KbA,.sidebar-1tnWFu,.sidebarRegionScroller-FXiQOh,.withFrame-2dL45i, .container-1oAagU{backdrop-filter:blur(var(--sides-blur))}#app-mount .children-3xh0VB:after,#app-mount .form-3gdLxP:before{display:none}.appMount-2yBXZl, .tabBody-2dgbAs, .nowPlayingColumn-1eCBCN {background:var(--background) center/cover no-repeat}.withFrame-2dL45i{padding-top:4px;margin-top:0}#app-mount .sidebar-1tnWFu{border-radius:0}.content-3spvdd{backdrop-filter:blur(5px)}.header-1iEhSH::before,.stickyHeader-1Sunlx::before,.titleContainer-3fPic2::before{background:var(--background) center/cover fixed}.header-1iEhSH::after,.header-1iEhSH::before,.stickyHeader-1Sunlx::after,.stickyHeader-1Sunlx::before,.titleContainer-3fPic2::after,.titleContainer-3fPic2::before{content:"";position:absolute;top:0;bottom:0;right:0;left:0;pointer-events:none;z-index:-1}.scroller-29cQFV, #app-mount .pageWrapper-2PwDoS, .chatContent-3KubbW, .contentRegion-3HkfJJ, .header-1iEhSH::after, .peopleColumn-1wMU14, .stickyHeader-1Sunlx::after, .titleContainer-3fPic2::after {background: rgba(54,57,63,var(--chat-transp));backdrop-filter: blur(var(--chat-blur))}
+
+/* Theme */
+.titleBar-1it3bQ > *:nth-child(2):hover {background-color: #aa2210;}
+.titleBar-1it3bQ > *:nth-child(3):hover {background-color: #c9990a;}
+.titleBar-1it3bQ > *:nth-child(4):hover {background-color: #0ea70e;}
+.layer-86YKbF.baseLayer-W6S8cY {background-color: var(--background-tertiary) !important;}
+/* .container-1eFtFS {margin-top: 10px;} */
+.withFrame-2dL45i {padding-top: 13.5px;margin-top: 0;}
+.wordmark-2u86JB:after {
+  color: rgb(247, 245, 245);
+  content: "Discord";
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+  width: 4000px;
+  top: 8.8px;
+  left: 11px;
+}
+.theme-light .wordmark-2u86JB:after {color: rgb(48, 48, 48);}
+.theme-dark .wordmark-2u86JB:after {color: rgb(247, 245, 245);}
+.wordmark-2u86JB > svg {width: 0px;}
+.winButton-3UMjdg {position: relative;top: -13.5px;cursor: pointer;width: 32px;height: 30px;pointer-events: auto;-webkit-app-region: no-drag;}
+
+    .expandedFolderBackground-1cujaW {
+      background-color: var(--serverlist-folder-background);
+    }

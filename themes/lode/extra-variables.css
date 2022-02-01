@@ -1,0 +1,54 @@
+/*  ------------------------------------------
+               Lode Extra Variables
+                      v1.0.7
+                - leeprky#2063 -
+    ------------------------------------------  */
+
+    @import url(https://leeprky.github.io/themes/FullyThemedDiscord/FullyThemedDiscord.css);
+    @import url(https://leeprky.github.io/themes/BaseStuff/round-stuff.css);
+    @import url(https://leeprky.github.io/themes/BaseStuff/alt-color.css);
+    @import url(https://leeprky.github.io/themes/GreenBeGo/greenple-replacer.css);
+    @import url(https://leeprky.github.io/themes/lode/rebrand/modal.css);
+    
+    @import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
+    @import url(https://raw.githack.com/NYRI4/Discolored/master/main.css);
+    @import url(https://leeprky.github.io/themes/lode/plugin-styles.css);
+    
+    /* Global Recolouring */
+    .headerSpotify-zpWxgT,.topSectionSpotify-1lI0-P{background:var(--spotify-color)}
+    .attachButtonPlay-1ATmb5{color:var(--spotify-color)}
+    .headerStreaming-2FjmG,.topSectionStreaming-1Tpf5X{background:var(--streaming-color)}
+    .streamerModeEnabledBtn-2nlJTD{background-color:var(--streaming-color)}
+    .headerPlaying-j0WQBV,.topSectionPlaying-1J5E4n{background:var(--playing-color)}
+    .headerNormal-T_seeN,.headerTop-3C2Zn0,.topSectionNormal-2-vo2m{background:var(--modal-normal-color)}
+    .theme-dark .body-3iLsc4,.theme-dark .footer-1fjuF6{background-color:var(--modal-normal-secondary-color)}
+    .scroller-3X7KbA{background-color:var(--serverlist-background)}
+    .members-3WRCEx,.members-3WRCEx>div{background-color:var(--memberlist-background)}
+    .mentioned-Tre-dv:before{background-color:var(--mentioned-line)}
+    .theme-dark .tooltipPrimary-3qLMbS,.theme-light .tooltipPrimary-3qLMbS{background-color:var(--background-accent)}
+    .header-2BwW8b{border-radius:0 0 12px 12px}
+    .isUnread-3Lojb-,.unreadPill-3nEWYM{border-color:var(--background-accent);background-color:var(--background-accent)}
+    .isUnread-3Lojb- .content-3spvdd{color:var(--background-accent)}
+    .unreadPillCapStroke-1nE1Q8{fill:var(--background-accent);color:var(--background-accent)}
+    .updateIconForeground-2V_zo4{fill:var(--background-accent)}
+    .theme-light .title-3XlmeX{color:var(--subtext-color)}
+    .theme-light .panels-3wFtMD .button-12Fmur{color:var(--subtext-color)}
+    .theme-light .subtext-2HDqJ7{color:var(--subtext-color)}
+    .theme-light .nameTag-sc-gpq{margin-left:-7px}
+    .theme-light .container-YkUktl .avatar-1EWyVD{margin-left:-5px}
+    .theme-light .nameTag-sc-gpq.canCopy-IgTwyV{margin-left:0}
+    .theme-light .subtext-2HDqJ7{color:var(--subtext-color)!important}
+    .theme-dark .form-2oOOG9,.theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B,.theme-dark .root-g14mjS{background-color:#191f30}
+    .input-m1-Y7Q,.theme-dark .footer-31IekZ{background-color:#252b3b}
+    .theme-dark .container-x8Y1ix{background-color:#252b3b}
+    .theme-dark .colorHeaderSecondary-g5teka,.theme-dark .contents-3ca1mk,.theme-dark .footerTitle-3Bslxi,.theme-dark .h5-2RwDNl,.theme-dark .iconContainer-GFfNaA,.theme-dark .input-2g-os5,.theme-dark .lookFilled-yCfaCM .contents-3ca1mk,.theme-dark .lookInverted-2mDUMi .contents-3ca1mk,.theme-dark .lookLink-15mFoz .contents-3ca1mk,.theme-dark .lookOutlined-3yKVGo .contents-3ca1mk,.theme-dark .optionHeader-27AHfD,.theme-dark .subtitle-bIoUVX,.theme-dark .subtitle-1cc8Nz,.theme-dark .subtitle-3m-md1,.theme-dark .text-PdAsFQ,.theme-dark .title-1_TkpU,.theme-dark .title-OdeD-o,.theme-dark .title-1LqMUp,.theme-dark .title-2Giw-4{color:#f3efef}
+        .messagesWrapper-RpOMA3 {
+         margin-right: 30px !important;
+        }
+        .messagesWrapper-RpOMA3, .wrapper-2vIMkT {
+         margin-right: 30px !important;
+        }
+        .container-2gUZhU {
+          margin-right: 200px !important;
+        }
+    

@@ -1,0 +1,65 @@
+.avatar-SmRMf2, .avatar-VxgULZ, .icon-27yU2q {position: relative;border-radius: var(--avatar-radius) !important;}
+   .theme-dark .tooltipPrimary-1d1ph4, .theme-light .tooltipPrimary-1d1ph4 {
+    top: 24px !important;
+    position: relative;
+}
+.formNotice-2_hHWR, .cardPrimaryOutline-29Ujqw ,.powercord-account, .powercord-product, .theme-dark .card-o7rAq-, .theme-dark .card-3IImnr, .connectionOptionsWrapper-3KIj1Z{
+  background-color: var(--background-tertiary);
+}
+
+ /* Show Discord, even when you're offline */
+.container-16j22k {
+   background: transparent;
+   pointer-events: none;
+ }
+ .container-16j22k * {
+   display: none;
+ }
+   .container-16j22k::before {
+      content: 'No Internet';
+      display: block;
+      right: 0.45%;
+      width: 205px;
+      height: 18px;
+      bottom: 25px;
+      position: absolute;
+      padding: 8px 16px;
+      background-color: var(--red-hsl);
+      border-radius: 12px;
+      color: #fff;
+      text-align: center;
+  }
+  
+/* MacOS */
+
+  .macButtons-2MuSAC {
+     margin-left: 1945px;
+     margin-top: 65px;
+     display: fixed;
+     transform: scale(1.2);
+     position: absolute;
+     transition: 300ms;
+  }
+  .unfocused-1QsMU3 .macButtonClose-MwZ2nf, .unfocused-1QsMU3 .macButtonMaximize-2FMHAO, .unfocused-1QsMU3 .macButtonMinimize-3EJ6wo {
+   background-color: var(--alt-color2);
+   opacity: 0.5;
+   transition: 300ms;
+}
+  .macButton-c_Adir {
+     margin-left: 10px;
+  }
+  .platform-osx .wrapper-3NnKdC {
+   margin-top: 0;
+}
+  .platform-osx .back-1Ess-_ {
+   -webkit-app-region: no-drag;
+}
+.platform-osx .button-2PWmas {
+   -webkit-app-region: no-drag;
+}
+.platform-osx .toolbar-1t6TWx {
+   -webkit-app-region: no-drag;
+}
+.platform-osx .topic-TCb_qw {
+   -webkit-app-region: no-drag;   
+}

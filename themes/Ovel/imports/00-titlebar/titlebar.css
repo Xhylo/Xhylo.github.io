@@ -1,0 +1,33 @@
+.typeWindows-1za-n7{width:calc(100% - calc(72px + 240px));position:fixed;right:0;height:0;top:-100px;z-index:2;background:#fff!important;margin:0}
+.platform-win .children-19S4PO,.platform-win .toolbar-1t6TWx{z-index:10000000000000}
+.winButton-iRh8-Z{top:173px;right:15px;margin-left:15px;z-index:67438274832798;transform:scale(1.4)}
+.wordmarkWindows-1v0lYD{display:none}
+.platform-win .sidebar-2K8pFh{border-radius:0!important}
+.platform-win .title-3qD0b-{width:calc(100% - 250px)}
+.children-19S4PO{-webkit-app-region:drag}
+.tutorialContainer-2sGCg9{top:60px}
+.titleBar-AC4pGV > :nth-child(2):hover{background-color:var(--alt-color2);border-radius:8px;transform:scale(1.2)}
+.titleBar-AC4pGV > :nth-child(3):hover{background-color:#a3a146;border-radius:8px;transform:scale(1.2)}
+.titleBar-AC4pGV > :nth-child(4):hover{background-color:#46a362;border-radius:8px;transform:scale(1.2)}
+.titleBar-AC4pGV > :nth-child(2){transition:.5s;border-radius:2px}
+.titleBar-AC4pGV > :nth-child(3){transition:.5s;border-radius:2px}
+.titleBar-AC4pGV > :nth-child(4){transition:.5s;border-radius:2px}
+.container-2lgZY8 .base-3dtUhz .container-1r6BKw.themed-ANHk51 {
+  background: var(--background-primary) !important;
+  z-index: 1;
+  right: 180px;
+}
+.children-19S4PO {
+ left: 175px;
+}
+.chat-3bRxxu .container-1r6BKw .toolbar-1t6TWx {
+  left: 195px;
+  position: relative;
+}
+.children-19S4PO:after {
+  right: 40px;
+  position: absolute;
+}
+ .theme-dark .container-1D34oG {
+  background-color: var(--background-primary);
+}

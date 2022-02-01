@@ -1,0 +1,184 @@
+:root {
+
+    /* Gradients */
+    --default-gradient: 315deg, rgba(var(--alt-color), 0.6) 0%, rgba(var(--alt-color), 0.8) 74% !important;
+    --special-gradient: 315deg, rgba(var(--alt-color), 0.1) 0%, #c987b8 74% !important;
+    --red-gradient: 315deg, #AA3738 0%, #F04747 74% !important;
+    --red-hsl: hsl(359, 63%, 53%) !important;
+    --yellow-gradient: 315deg, #c29b1b 0%, #ffa640 74% !important;
+    --yellow-hsl: hsl(46, 72%, 52%) !important;
+    --green-gradient: 315deg, #507a73 0%, #4b7c72  74% !important;
+    --grey-gradient: 315deg, rgba(var(--alt-color), 0.6) 0%, rgba(var(--alt-color), 0.8) 74% !important;
+    --white-gradient: 315deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.342) 74% !important;
+       
+    /* Transitions */
+    --font-normal: 500 !important;
+    --font-hover: bold !important;
+    --font-size-hover: 15px !important;
+    --hover-transition: 0.1s linear !important;
+    --transform-normal: scale(1) !important;
+    --hover-transform: scale(1.15) !important;
+    --setting-hover-transform: scale(1.025) !important;
+    --button-hover-transform: scale(1.03) !important;
+ 
+    /* Greenple Colour*/
+    --green-color: var(--alt-color2) !important;
+    --green-color2: var(--alt-color) !important;
+    --green-bar-on: #2b3555 !important;
+    --green-bar-bg: var(--green-color) !important;
+    --green-slider-on: var(--green-color) !important;
+    --green-slider-off: #2b3555 !important;
+    --green-slider-dot: #fff !important;
+
+    /* Indiicator */
+    --indicator-connected: 60, 150, 60 !important;
+    --indicator-hovered: rgba(36, 36, 36, 0.25) !important;
+    --indicator-unread: 255, 255, 255 !important;
+    --indicator-selected: var(--alt-color) !important;
+    --indicator-rounding: 4px !important;
+}
+
+/*  █▀▄ ▄▀█ █▀█ █▄▀
+    █▄▀ █▀█ █▀▄ █░█ */
+   
+   .theme-dark {
+
+      --channeltextarea-background: var(--background-secondary) !important;
+   
+      --alt-color: 103, 124, 192 !important;
+      --alt-color2: #677CC0 !important;
+      --alt-color3: 226 !important;/* HSL */
+      
+      --playing-color: var(--alt-color2) !important;
+      --spotify-color: var(--alt-color2);
+      --streaming-color: rgb(127, 50, 179) !important;
+      
+       /* Header Colors */
+       --header-primary: #FFFFFF !important;
+       --header-secondary: #c7c7c7 !important;
+       --channels-headings: var(--alt-color2) !important;
+     
+       /* Text Colours */
+       --text-normal: #F0F0F0 !important;
+       --text-muted: #B3B3B3 !important;
+       --text-link: var(--alt-color2) !important;
+       --channels-default: #dddddd !important;
+       --interactive-normal: #F0F0F0 !important;
+       --interactive-hover: #F0F0F0 !important;
+       --interactive-hover-icons: var(--background-accent2) !important;
+       --interactive-active: #fefeff !important;
+        --interactive-active-icons: var(--background-accent2) !important;
+       --interactive-muted: #585858 !important;
+      
+       /* Background Colours */
+       --background-primary: #262B3D !important;
+       --background-primary-alt: #1a1d2b !important;
+       --background-secondary: #1F2436 !important;
+       --background-secondary-alt: #0d0f18;
+       --background-tertiary: #151824 !important;
+       --background-accent: var(--alt-color2) !important;
+       --background-floating: #1c2030 !important;
+      
+       /* Mentioned  Colours */
+       --background-mentioned: rgba(var(--alt-color), 0.1) !important;
+       --background-mentioned-hover: rgba(var(--alt-color), 0.2) !important;
+       --info-warning-foreground: #bdbdbdc5;
+      
+       --background-help-warning: rgba(250,166,26,0.1) !important;
+       --background-help-info: rgba(0,176,244,0.1) !important;
+      
+       /* Hovering Colours */
+       --background-modifier-hover: rgba(var(--alt-color), 0.2) !important;
+       --background-modifier-active: rgba(var(--alt-color), 0.8) !important;
+       --background-modifier-selected: rgba(var(--alt-color), 0.5) !important; 
+       --background-modifier-accent: rgba(var(--alt-color), 0.1) !important;  
+      
+      /* Box Shadow On Floating Elements Colours */
+      --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15) !important;
+      --elevation-low: 0 1px 0 rgba(18, 20, 36, 0.767),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
+      --elevation-medium: 0 4px 4px rgba(0,0,0,0.16) !important;
+      --elevation-high: 0 8px 16px rgba(0,0,0,0.24) !important;
+      
+      --scrollbar-thin-thumb: #6c6c6c !important;
+      --scrollbar-thin-track: #17171700;
+      --scrollbar-auto-thumb: #6c6c6c;
+      --scrollbar-auto-track: #17171700 !important;
+      --scrollbar-auto-scrollbar-color-thumb: #6c6c6c !important;
+      --scrollbar-auto-scrollbar-color-track: #171717da !important;
+          
+      /* Other */
+      --radio-group-dot-foreground: var(--alt-color) !important;
+      }
+   
+   
+      /* █░░ █ █▀▀ █░█ ▀█▀
+         █▄▄ █ █▄█ █▀█ ░█░ */
+   
+    .theme-light {
+    
+      --channeltextarea-background: #f7f6ff !important;
+     
+      --alt-color: 145, 170, 245 !important;
+      --alt-color2: #91aaf5 !important;
+      --alt-color3: 225 !important;/* HSL */
+      
+      --playing-color: var(--alt-color2) !important;
+      --spotify-color: var(--alt-color2) !important;
+      --streaming-color: rgb(127, 50, 179) !important;
+      
+       /* Header Colors */
+       --header-primary: #1A1A1A !important;
+       --header-secondary: #5E5D5F !important;
+       --channels-headings: var(--alt-color2) !important;
+     
+       /* Text Colours */
+       --text-normal: #585858 !important;
+       --text-muted: #9e9d9d !important;
+       --text-link: var(--alt-color2) !important;
+       --channels-default: #585858 !important;
+       --interactive-normal: #585858 !important;
+       --interactive-hover: #424242 !important;
+       --interactive-hover-icons: var(--background-accent2) !important;
+       --interactive-active: #333333 !important;
+        --interactive-active-icons: var(--background-accent2) !important;
+       --interactive-muted: #989898 !important;
+      
+       /* Background Colours */
+       --background-primary: #d3dcff !important;
+       --background-primary-alt: #c4cefd !important;
+       --background-secondary: #dbe2ff !important;
+       --background-secondary-alt: #e2e7ff;
+       --background-tertiary: #e6ebff !important;
+       --background-accent: var(--alt-color2) !important;
+       --background-floating: #dfe5ff !important;
+      
+       /* Mentioned  Colours */
+       --background-mentioned: #fcfcfc !important;
+       --background-mentioned-hover: #ebebeb !important;
+       --info-warning-foreground: #1f1e1ec5;
+      
+       --background-help-warning: rgba(250,166,26,0.1);
+       --background-help-info: rgba(0,176,244,0.1) !important;
+      
+       /* Scrollbar Colours */
+       --background-modifier-hover: rgba(var(--alt-color), 0.2) !important;
+       --background-modifier-active: rgba(var(--alt-color), 0.8) !important;
+       --background-modifier-selected: rgba(var(--alt-color), 0.5) !important; 
+       --background-modifier-accent: rgba(var(--alt-color), 0.1) !important;  
+      
+      /* Box Shadow On Floating Elements Colours */
+      --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15) !important;
+      --elevation-low: 0 1px 0 rgba(18, 20, 36, 0.767),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05) !important;
+      --elevation-medium: 0 4px 4px rgba(0,0,0,0.16) !important;
+      --elevation-high: 0 8px 16px rgba(0,0,0,0.24) !important;
+      
+      --scrollbar-thin-thumb: #8A8A8A !important;
+      --scrollbar-thin-track: #f7f7f700;
+      --scrollbar-auto-thumb: #8A8A8A;
+      --scrollbar-auto-track: #ffffff36 !important;
+      --scrollbar-auto-scrollbar-color-thumb: #6c6c6c !important;
+      --scrollbar-auto-scrollbar-color-track: #171717da !important;
+          
+      /* Other */
+      --radio-group-dot-foreground: var(--alt-color2) !important; /* Ignore */
+      }

@@ -1,0 +1,22 @@
+
+/* BETTERDISCORD ADDITONS */
+.activity-11LB_k {
+  background-color: rgba(0, 0, 0, 0);
+}
+.scroller-3_YDR2 {
+  border-radius: 12px;
+}
+.theme-dark .perksModal-fSYqOq {
+  background-color: var(--background-primary);
+}
+
+/* Bd Blue */
+.bd-button, .bd-server-tag, .bd-addon-views .bd-view-button.selected  {
+  background-color: var(--bd-color); 
+}
+.bd-button:hover {
+  background-color: var(--bd-color-hover); 
+}
+#bd-pub-button:hover {
+  background-color: var(--bd-color-hover); 
+}

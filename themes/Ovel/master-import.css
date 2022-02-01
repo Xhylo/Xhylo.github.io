@@ -1,0 +1,108 @@
+/* ---------------------------------------------
+
+
+      ░█████╗░  ██╗░░░██╗  ███████╗  ██╗░░░░░
+      ██╔══██╗  ██║░░░██║  ██╔════╝  ██║░░░░░
+      ██║░░██║  ╚██╗░██╔╝  █████╗░░  ██║░░░░░
+      ██║░░██║  ░╚████╔╝░  ██╔══╝░░  ██║░░░░░
+      ╚█████╔╝  ░░╚██╔╝░░  ███████╗  ███████╗
+      ░╚════╝░  ░░░╚═╝░░░  ╚══════╝  ╚══════╝
+
+           █ █▀▄▀█ █▀█ █▀█ █▀█ ▀█▀ █▀
+           █ █░▀░█ █▀▀ █▄█ █▀▄ ░█░ ▄█
+
+                    v1.0.6
+
+   --------------------------------------------- */
+
+/* Base Imports */
+@import "https://leeprky.github.io/themes/BaseStuff/alt-color.css";
+@import "https://leeprky.github.io/snippits/coolsniipitsforthemes.css";
+@import "https://leeprky.github.io/themes/lode/default/support/gradients/luckfiregradientbuttons.css";
+@import "https://leeprky.github.io/themes/GreenBeGo/greenple-replacer.css";
+@import "https://leeprky.github.io/themes/FullyThemedDiscord/FullyThemedDiscord.css";
+
+/* Other User Imports */
+@import "https://raw.githack.com/mr-miner1/Better-Badges/main/theme.css";
+@import "https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css";
+
+/* Essential Imports */ /*
+@import "https://leeprky.github.io/themes/Ovel/imports/compiled-10.css"; */
+@import "https://leeprky.github.io/themes/Ovel/imports/compiled.css";
+
+/* Titlebar - 01*/
+/*
+@import "https://leeprky.github.io/themes/Ovel/imports/00-titlebar/titlebar.css";
+
+/* Serverlist - 01 */ /*
+@import "https://leeprky.github.io/themes/Ovel/imports/01-serverlist/serverlist.css";
+@import "https://leeprky.github.io/themes/Ovel/imports/01-serverlist/name-panel.css";
+
+/* Memberlist - 02*/ /*
+@import "https://leeprky.github.io/themes/Ovel/imports/02-memberlist/memberlist.css";
+
+/* Channellist - 03 */ /*
+@import "https://leeprky.github.io/themes/Ovel/imports/03-channellist/panel.css";
+@import "https://leeprky.github.io/themes/Ovel/imports/03-channellist/channel-list.css";
+
+/* Chat Content Area - 04 */ /*
+@import "https://leeprky.github.io/themes/Ovel/imports/04-content/chatbox.css";
+@import "https://leeprky.github.io/themes/Ovel/imports/04-content/chat-content.css";
+@import "https://leeprky.github.io/themes/Ovel/imports/04-content/channel-header.css";
+
+/* Settings Area - 05 */ /*
+@import "https://leeprky.github.io/themes/Ovel/imports/05-settings/setting-alignment.css";
+@import "https://leeprky.github.io/themes/Ovel/imports/05-settings/account-info.css";
+
+/* Settings Area > Friends Area - 05.1 */ /*
+@import "https://leeprky.github.io/themes/Ovel/imports/05-settings/05.1-friends/directmessages.css";
+
+/* Modals - 06 */ /*
+@import "https://leeprky.github.io/themes/Ovel/imports/06-modals/modal-popout.css";
+@import "https://leeprky.github.io/themes/Ovel/imports/06-modals/usrbg.css";
+@import "https://leeprky.github.io/themes/Ovel/imports/06-modals/modal-expanded.css";
+@import "https://leeprky.github.io/themes/Ovel/imports/06-modals/activities.css";
+
+/* Extras - 07 */ /*
+@import "https://leeprky.github.io/themes/Ovel/imports/07-extra/variables.css";
+@import "https://leeprky.github.io/themes/Ovel/imports/07-extra/pills.css";
+@import "https://leeprky.github.io/themes/Ovel/imports/07-extra/nag-bar.css";
+@import "https://leeprky.github.io/themes/Ovel/imports/07-extra/extra.css";
+@import "https://leeprky.github.io/themes/Ovel/imports/07-extra/version.css";
+@import "https://leeprky.github.io/themes/Ovel/imports/07-extra/crashed.css";
+
+/* Colour - 08 */
+@import "https://leeprky.github.io/themes/Ovel/imports/08-colours/Ovel.css";
+
+/* Support - 09 */ /*
+@import "https://leeprky.github.io/themes/Ovel/imports/09-support/plugins/nsfw-text.css";
+
+/* Background - 10 */ /*
+@import "https://leeprky.github.io/themes/Ovel/imports/10-background/body-background.css";
+
+
+/* ---------------------------------------------
+
+        ██████╗░░█████╗░░██████╗███████╗
+        ██╔══██╗██╔══██╗██╔════╝██╔════╝
+        ██████╦╝███████║╚█████╗░█████╗░░
+        ██╔══██╗██╔══██║░╚═══██╗██╔══╝░░
+        ██████╦╝██║░░██║██████╔╝███████╗
+        ╚═════╝░╚═╝░░╚═╝╚═════╝░╚══════╝
+
+   --------------------------------------------- */
+
+@import "https://leeprky.github.io/themes/Ovel/imports/07-extra/version.css";
+
+/* Outdated Version Code*/
+:root {
+   --theme: "Ovel";
+   --build-latest: "150";
+   --version-latest: "v1.0.6";
+   --version-latest-long: "Version: " var(--version-latest) " (Latest) ";
+   --version-long: "Version: " var(--version) " (Current) ";
+   --theme-dl: "https://github.com/leeprky/Ovel"
+}
+
+#app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div.base-2jDfDU:before{display:var(--outdated_ovel-150,block)!important;position:absolute;left:32%!important;width:fit-content;border-radius:0 0 12px 12px!important;top:48px!important}
+#app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div.base-2jDfDU:before{content:var(--theme)" Is outdated Or Broken.. Current: ("var(--version)" Build "var(--build)") | Latest: (" var(--version-latest)" Build: "var(--build-latest) ") // Redownload the theme From \""var(--theme-dl)"\"" !important;display:block;background-color:var(--alt-color2);color:#fff;flex-grow:0;flex-shrink:0;font-size:16px;font-weight:500;height:auto;line-height:16px;opacity:1;padding:10px;padding-left:20px;padding-right:20px;position:relative;text-align:center;visibility:unset;white-space:pre-wrap;top:0;left:0;bottom:unset;right:unset;max-width:2000px;min-width:unset;max-height:unset;min-height:unset;transform:unset;animation:unset;z-index:999999;pointer-events:none}

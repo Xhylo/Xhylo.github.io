@@ -1,0 +1,82 @@
+.scrollableContainer-2NUZem {
+   min-height: 50px;
+}
+.sansAttachButton-td2irx {
+   margin-top: 4px;
+}
+   .scrollableContainer-2NUZem {
+      min-height: 55px;
+  }
+.jumpToPresentBar-G1R9s6 {
+   padding: 0;
+   border-radius: 50px;
+   right: 25px;
+   bottom: 45px;
+   left: unset;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   animation-duration: 0.3s;
+   animation-name: slidein;
+   animation-fill-mode: forwards;
+}
+
+
+.jumpToPresentBar-G1R9s6 .spinner-2enMB9 {
+   padding: 0;
+}
+
+@keyframes slidein {
+   from {
+       bottom: -50px;
+  }
+   to {
+       bottom: 45px;
+  }
+} 
+
+/** Unread Pill Bar v1 */
+.newMessagesBar-265mhP {
+  height: 40px;
+  margin-left: 20px;
+  margin-right: 60px;
+  top: 10px;
+}
+#app-mount .option-3KoAJB:last-child, #app-mount .newMessagesBar-265mhP, #app-mount .container-2x5lvQ section {
+   border-radius: 8px !important;
+}
+.subtext-3CDbHg p {
+  margin: 0;
+}
+   .theme-light .children-19S4PO, .toolbar-1t6TWx {
+      background-color: rgba(255, 255, 255, 0.2);
+  }
+   .theme-dark .children-19S4PO, .toolbar-1t6TWx {
+      background-color: rgba(0,0,0,0.2) !important;
+  }
+
+             .container-2ax-kl {
+                 color: rgba(var(--alt-color), 0.9);
+                 font-weight: bold;
+              }
+
+              .icon-2yIBmh {
+               position: absolute;
+               left: 2px;
+               top: 6px;
+               width: 12px;
+               height: 12px;
+           }
+
+           .collapsed-2-tg8y .icon-2yIBmh {
+            -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+        }
+
+        .arrow-gKvcEx.icon-2yIBmh {
+           width: 19px;
+           height: 19px;
+           margin-left: -5px;
+           margin-top: -4px;
+           color: rgba(var(--alt-color), 0.9);
+        }
